@@ -2,6 +2,8 @@ package tictactoe;
 
 import java.util.Scanner;
 
+import static java.lang.Math.abs;
+
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -14,8 +16,18 @@ public class Main {
                 charIndex++;
             }
         }
-
         printBoard(playBoard);
+        if (Impossible(input)) {
+            System.out.println("Impossible");
+        } else if (XWin(input)) {
+            System.out.println("X wins");
+        } else if (OWin(input)) {
+            System.out.println("O wins");
+        } else if (GameNotFinished(input)) {
+            System.out.println("Game not finished");
+        } else {
+            System.out.println("Draw");
+        }
     }
 
     private static void printBoard(char[][] playBoard) {
@@ -29,5 +41,41 @@ public class Main {
         }
         System.out.println("---------");
     }
+
+    public static boolean GameNotFinished(String input) {
+        return input.contains("_");
+    }
+
+    public static boolean XWin(String input) {
+        return input.substring(3, 6).equals("XXX") | input.startsWith("XXX") | input.endsWith("XXX")
+                | (input.charAt(0) == 'X' && input.charAt(4) == 'X' && input.charAt(8) == 'X')
+                | (input.charAt(0) == 'X' && input.charAt(3) == 'X' && input.charAt(6) == 'X')
+                | (input.charAt(1) == 'X' && input.charAt(4) == 'X' && input.charAt(7) == 'X')
+                | (input.charAt(2) == 'X' && input.charAt(5) == 'X' && input.charAt(8) == 'X')
+                | (input.charAt(2) == 'X' && input.charAt(4) == 'X' && input.charAt(6) == 'X');
+    }
+
+    public static boolean OWin(String input) {
+        return input.substring(3, 6).equals("OOO") | input.startsWith("OOO") | input.endsWith("OOO")
+                | (input.charAt(0) == 'O' && input.charAt(4) == 'O' && input.charAt(8) == 'O')
+                | (input.charAt(0) == 'O' && input.charAt(3) == 'O' && input.charAt(6) == 'O')
+                | (input.charAt(1) == 'O' && input.charAt(4) == 'O' && input.charAt(7) == 'O')
+                | (input.charAt(2) == 'O' && input.charAt(5) == 'O' && input.charAt(8) == 'O')
+                | (input.charAt(2) == 'O' && input.charAt(4) == 'O' && input.charAt(6) == 'O');
+    }
+
+    public static boolean Impossible(String input) {
+        int Xs = 0;
+        int Os = 0;
+        for (int i = 0; i < input.length(); ++i) {
+            if (input.charAt(i) == 'X') {
+                ++Xs;
+            } else if (input.charAt(i) == 'O') {
+                ++Os;
+            }
+        }
+        return abs(Xs - Os) > 1 || (OWin(input) && XWin(input));
+    }
+
 }
 
