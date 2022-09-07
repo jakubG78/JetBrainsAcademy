@@ -1,5 +1,6 @@
 package tictactoe;
 
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 import static java.lang.Math.abs;
@@ -17,7 +18,8 @@ public class Main {
             }
         }
         printBoard(playBoard);
-        if (Impossible(input)) {
+
+/*        if (Impossible(input)) {
             System.out.println("Impossible");
         } else if (XWin(input)) {
             System.out.println("X wins");
@@ -27,6 +29,36 @@ public class Main {
             System.out.println("Game not finished");
         } else {
             System.out.println("Draw");
+        }*/
+        move(scanner, playBoard);
+        printBoard(playBoard);
+    }
+
+    private static void move(Scanner scanner, char[][] playBoard) {
+        int xMove;
+        int yMove;
+        while (true) {
+            while (true) {
+                try {
+                    xMove = scanner.nextInt();
+                    yMove = scanner.nextInt();
+                    break;
+                } catch (InputMismatchException e) {
+                    System.out.println("You should enter numbers!");
+                    scanner.nextLine();
+                }
+            }
+
+            if (xMove <= 3 && yMove <= 3) {
+                if (playBoard[xMove - 1][yMove - 1] != '_') {
+                    System.out.println("This cell is occupied! Choose another one!");
+                } else {
+                    playBoard[xMove - 1][yMove - 1] = 'X';
+                    break;
+                }
+            } else {
+                System.out.println("Coordinates should be from 1 to 3!");
+            }
         }
     }
 
@@ -35,7 +67,11 @@ public class Main {
         for (int rowIndex = 0; rowIndex < 3; rowIndex++) {
             System.out.print("| ");
             for (int columnIndex = 0; columnIndex < 3; columnIndex++) {
-                System.out.print(playBoard[rowIndex][columnIndex] + " ");
+                if (playBoard[rowIndex][columnIndex] == '_') {
+                    System.out.print("  ");
+                } else {
+                    System.out.print(playBoard[rowIndex][columnIndex] + " ");
+                }
             }
             System.out.println("|");
         }

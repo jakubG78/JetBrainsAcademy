@@ -23,6 +23,10 @@
             <option value="$PROJECT_DIR$/Topics/Comments/Theory" />
             <option value="$PROJECT_DIR$/Topics/Comments/Three numbers" />
             <option value="$PROJECT_DIR$/Topics/Comments/What comments are not used in the program" />
+            <option value="$PROJECT_DIR$/Topics/Errors in programs/Fix compile-time errors" />
+            <option value="$PROJECT_DIR$/Topics/Errors in programs/Fix the program" />
+            <option value="$PROJECT_DIR$/Topics/Errors in programs/Theory" />
+            <option value="$PROJECT_DIR$/Topics/Errors in programs/What's wrong" />
             <option value="$PROJECT_DIR$/Topics/Integer types and operations/Arithmetic expression" />
             <option value="$PROJECT_DIR$/Topics/Integer types and operations/Calculate the digit" />
             <option value="$PROJECT_DIR$/Topics/Integer types and operations/First digit" />
@@ -43,6 +47,10 @@
             <option value="$PROJECT_DIR$/Topics/Primitive and reference types/Creating a reference type" />
             <option value="$PROJECT_DIR$/Topics/Primitive and reference types/The assignment" />
             <option value="$PROJECT_DIR$/Topics/Primitive and reference types/Theory" />
+            <option value="$PROJECT_DIR$/Topics/Switch statement/A simple calculator" />
+            <option value="$PROJECT_DIR$/Topics/Switch statement/Direction" />
+            <option value="$PROJECT_DIR$/Topics/Switch statement/Statements" />
+            <option value="$PROJECT_DIR$/Topics/Switch statement/Theory" />
             <option value="$PROJECT_DIR$/Topics/The for-loop/Fizz Buzz" />
             <option value="$PROJECT_DIR$/Topics/The for-loop/From sum to product" />
             <option value="$PROJECT_DIR$/Topics/The for-loop/Grades" />
