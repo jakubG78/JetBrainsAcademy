@@ -15,16 +15,19 @@ public class Cinema {
         System.out.println("Enter the number of seats in each row:");
         int columns = scanner.nextInt();
         char[][] seatsSetup = new char[columns][rows];
-        createCinemaRoom(seatsSetup);
-        printSeatsSetup(seatsSetup);
 
+        createCinemaRoom(seatsSetup);
+        menuInterface(premiumSeatsPrice, normalSeatsPrice, seatsSetup, scanner);
+
+    }
+
+    private static void buyTicket(int premiumSeatsPrice, int normalSeatsPrice, Scanner scanner, char[][] seatsSetup) {
         System.out.println("Enter a row number:");
         int chosenRowNumber = scanner.nextInt();
         System.out.println("Enter a seat number in that row:");
         int chosenColumnNumber = scanner.nextInt();
-        seatsSetup[chosenColumnNumber-1][chosenRowNumber-1] = 'B';
+        seatsSetup[chosenColumnNumber - 1][chosenRowNumber - 1] = 'B';
         System.out.printf("\nTicket price: $%d\n", checkTicketPrice(premiumSeatsPrice, normalSeatsPrice, seatsSetup, chosenRowNumber));
-        printSeatsSetup(seatsSetup);
     }
 
     private static void createCinemaRoom(char[][] seatsSetup) {
@@ -62,5 +65,30 @@ public class Cinema {
             System.out.println();
         }
         System.out.println();
+    }
+
+    private static void menuInterface(int premiumSeatsPrice, int normalSeatsPrice, char[][] seatsSetup, Scanner scanner) {
+        boolean isNotOver = true;
+        while (isNotOver) {
+            System.out.println("1. Show the seats");
+            System.out.println("2. Buy a ticket");
+            System.out.println("0. Exit");
+
+            int inputCommand = scanner.nextInt();
+
+            switch (inputCommand) {
+                case 1:
+                    printSeatsSetup(seatsSetup);
+                    break;
+                case 2:
+                    buyTicket(premiumSeatsPrice, normalSeatsPrice, scanner, seatsSetup);
+                    break;
+                case 0:
+                    isNotOver = false;
+                    break;
+                default:
+                    System.out.println("Invalid choice. Try again.");
+            }
+        }
     }
 }
