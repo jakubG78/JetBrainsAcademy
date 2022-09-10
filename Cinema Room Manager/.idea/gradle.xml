@@ -35,6 +35,15 @@
             <option value="$PROJECT_DIR$/Topics/Functional decomposition/Create a full name" />
             <option value="$PROJECT_DIR$/Topics/Functional decomposition/Decompose a math function" />
             <option value="$PROJECT_DIR$/Topics/Functional decomposition/Theory" />
+            <option value="$PROJECT_DIR$/Topics/NPE/Avoid NPE with strings" />
+            <option value="$PROJECT_DIR$/Topics/NPE/Theory" />
+            <option value="$PROJECT_DIR$/Topics/NPE/Where NPE might occur" />
+            <option value="$PROJECT_DIR$/Topics/Switch statement/A simple calculator" />
+            <option value="$PROJECT_DIR$/Topics/Switch statement/Direction" />
+            <option value="$PROJECT_DIR$/Topics/Switch statement/Statements" />
+            <option value="$PROJECT_DIR$/Topics/Switch statement/Statements (1)" />
+            <option value="$PROJECT_DIR$/Topics/Switch statement/Test learners" />
+            <option value="$PROJECT_DIR$/Topics/Switch statement/Theory" />
             <option value="$PROJECT_DIR$/Topics/The main method/Different declarations" />
             <option value="$PROJECT_DIR$/Topics/The main method/Fixing errors in main" />
             <option value="$PROJECT_DIR$/Topics/The main method/Fixing the main method" />
@@ -45,6 +54,8 @@
             <option value="$PROJECT_DIR$/Topics/The main method/The correct declaration" />
             <option value="$PROJECT_DIR$/Topics/The main method/Theory" />
             <option value="$PROJECT_DIR$/Topics/The main method/Who is the main" />
+            <option value="$PROJECT_DIR$/Topics/What is an exception/Avoid division by zero" />
+            <option value="$PROJECT_DIR$/Topics/What is an exception/Theory" />
             <option value="$PROJECT_DIR$/util" />
           </set>
         </option>
