@@ -5,3 +5,4 @@ content:
 - Handle incorrect inputs
 - Custom exceptions features
 - DriverNotReadyException
+- Checked exception with constructor
