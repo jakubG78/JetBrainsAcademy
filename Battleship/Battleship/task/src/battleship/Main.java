@@ -10,7 +10,6 @@ public class Main {
         playBoard.printBoard();
         System.out.println(playBoard.isEmpty(1, 1));
         playBoard.setupShip(scanner);
-        playBoard.printBoard();
         // Write your code here
     }
 }

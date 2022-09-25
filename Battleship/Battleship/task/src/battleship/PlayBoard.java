@@ -34,9 +34,18 @@ public class PlayBoard {
 
     protected void setupShip(Scanner scanner) {
         String startField = scanner.next();
-        int startY = startField.charAt(0) - 65;
+        String endField = scanner.next();
         int startX = getNumericValue(startField.charAt(1)) - 1;
-        this.board[startX][startY] = 'O';
+        int startY = startField.charAt(0) - 65;
+        int endX = getNumericValue(endField.charAt(1)) - 1;
+        int endY = endField.charAt(0) - 65;
+        if (startX == endX) {
+            System.out.println("vertical");
+        } else if (startY == endY) {
+            System.out.println("horizontal");
+        } else {
+            System.out.println("Error! Wrong ship location! Try again:");
+        }
     }
 
     protected boolean isEmpty(int x, int y) {
