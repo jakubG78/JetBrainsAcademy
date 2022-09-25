@@ -6,3 +6,4 @@ content:
 - Custom exceptions features
 - DriverNotReadyException
 - Checked exception with constructor
+- Square class
