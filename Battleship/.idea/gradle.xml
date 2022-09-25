@@ -11,6 +11,12 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/Battleship/task" />
+            <option value="$PROJECT_DIR$/Topics/Comments/Incorrect comments" />
+            <option value="$PROJECT_DIR$/Topics/Comments/Select all correct comments" />
+            <option value="$PROJECT_DIR$/Topics/Comments/Theory" />
+            <option value="$PROJECT_DIR$/Topics/Comments/Three numbers" />
+            <option value="$PROJECT_DIR$/Topics/Comments/Uncomment a line" />
+            <option value="$PROJECT_DIR$/Topics/Comments/What comments are not used in the program" />
             <option value="$PROJECT_DIR$/Topics/Custom exceptions/Checked exception with constructor" />
             <option value="$PROJECT_DIR$/Topics/Custom exceptions/Custom exceptions features" />
             <option value="$PROJECT_DIR$/Topics/Custom exceptions/DriverNotReadyException" />
@@ -56,6 +62,7 @@
             <option value="$PROJECT_DIR$/Topics/Integer types and operations/Arithmetic expression" />
             <option value="$PROJECT_DIR$/Topics/Integer types and operations/Calculate the digit" />
             <option value="$PROJECT_DIR$/Topics/Integer types and operations/Desks" />
+            <option value="$PROJECT_DIR$/Topics/Integer types and operations/Difference of times" />
             <option value="$PROJECT_DIR$/Topics/Integer types and operations/First digit" />
             <option value="$PROJECT_DIR$/Topics/Integer types and operations/Squirrels and nuts" />
             <option value="$PROJECT_DIR$/Topics/Integer types and operations/The sum of digits" />
