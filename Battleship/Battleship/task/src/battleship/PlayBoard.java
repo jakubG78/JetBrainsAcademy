@@ -32,10 +32,11 @@ public class PlayBoard {
     }
 
     private boolean deployShipPart(int x, int y) {
-        if (isEmpty(x, y)) {
+        if (isFieldValid(x, y)) {
             this.board[x][y] = 'O';
             return true;
         } else {
+            System.out.println("Error! Wrong ship location! Try again:");
             return false;
         }
     }
@@ -49,35 +50,29 @@ public class PlayBoard {
         int endY = inputStringArray[0].charAt(0) - 65;
 /*      System.out.println(startX + ":" + startY);
         System.out.println(endX + ":" + endY); */
-        if ((startX >= 0 && startX < this.board.length) &&
-                (startY >= 0 && endY < this.board[0].length)) {
-            if (startX == endX) {
-                for (int i = startY; i <= endY; i++) {
-                    if (!deployShipPart(startX, i)) {
-                        System.out.println("Error! Wrong ship location! Try again:");
-                        i = endY;
-                    } else {
-                        deployShipPart(startX, i);
-                    }
+        if (startX == endX) {
+            for (int i = startY; i <= endY; i++) {
+                if (!deployShipPart(startX, i)) {
+                    i = endY;
+                } else {
+                    deployShipPart(startX, i);
                 }
-            } else if (startY == endY) {
-                for (int i = startX; i <= endX; i++) {
-                    if (!deployShipPart(i, startY)) {
-                        System.out.println("Error! Wrong ship location! Try again:");
-                        i = endY;
-                    } else {
-                        deployShipPart(i, startY);
-                    }
+            }
+        } else if (startY == endY) {
+            for (int i = startX; i <= endX; i++) {
+                if (!deployShipPart(i, startY)) {
+                    i = endY;
+                } else {
+                    deployShipPart(i, startY);
                 }
-            } else {
-                System.out.println("Error! Wrong ship location! Try again:");
             }
         } else {
             System.out.println("Error! Wrong ship location! Try again:");
         }
     }
 
-    protected boolean isEmpty(int x, int y) {
-        return this.board[x][y] == '~';
+    protected boolean isFieldValid(int x, int y) {
+        return x >= 0 && x < this.board.length &&
+                y >= 0 && y < this.board[0].length && this.board[x][y] == '~';
     }
 }

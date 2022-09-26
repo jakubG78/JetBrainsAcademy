@@ -92,6 +92,13 @@
             <option value="$PROJECT_DIR$/Topics/Package/Default packages" />
             <option value="$PROJECT_DIR$/Topics/Package/Package features" />
             <option value="$PROJECT_DIR$/Topics/Package/Theory" />
+            <option value="$PROJECT_DIR$/Topics/Relational operators/Check the value" />
+            <option value="$PROJECT_DIR$/Topics/Relational operators/Exactly one parameter is positive" />
+            <option value="$PROJECT_DIR$/Topics/Relational operators/Existing operators" />
+            <option value="$PROJECT_DIR$/Topics/Relational operators/Groundhogs at a party" />
+            <option value="$PROJECT_DIR$/Topics/Relational operators/Is between" />
+            <option value="$PROJECT_DIR$/Topics/Relational operators/Possible values of a variable" />
+            <option value="$PROJECT_DIR$/Topics/Relational operators/Theory" />
             <option value="$PROJECT_DIR$/Topics/Static members/About static members" />
             <option value="$PROJECT_DIR$/Topics/Static members/Mystery of the methods" />
             <option value="$PROJECT_DIR$/Topics/Static members/Project constants and methods" />
@@ -102,6 +109,7 @@
             <option value="$PROJECT_DIR$/Topics/The for-loop/From sum to product" />
             <option value="$PROJECT_DIR$/Topics/The for-loop/Grades" />
             <option value="$PROJECT_DIR$/Topics/The for-loop/Statements" />
+            <option value="$PROJECT_DIR$/Topics/The for-loop/The count of numbers divisible by N" />
             <option value="$PROJECT_DIR$/Topics/The for-loop/The product of numbers from a to b" />
             <option value="$PROJECT_DIR$/Topics/The for-loop/Theory" />
             <option value="$PROJECT_DIR$/Topics/The keyword super/Bank account" />
