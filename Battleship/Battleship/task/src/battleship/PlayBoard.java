@@ -2,8 +2,6 @@ package battleship;
 
 import java.util.Scanner;
 
-import static java.lang.Character.getNumericValue;
-
 public class PlayBoard {
     protected char[][] board;
 
@@ -30,19 +28,50 @@ public class PlayBoard {
             }
             System.out.println();
         }
+        System.out.println();
+    }
+
+    private boolean deployShipPart(int x, int y) {
+        if (isEmpty(x, y)) {
+            this.board[x][y] = 'O';
+            return true;
+        } else {
+            return false;
+        }
     }
 
     protected void setupShip(Scanner scanner) {
-        String startField = scanner.next();
-        String endField = scanner.next();
-        int startX = getNumericValue(startField.charAt(1)) - 1;
-        int startY = startField.charAt(0) - 65;
-        int endX = getNumericValue(endField.charAt(1)) - 1;
-        int endY = endField.charAt(0) - 65;
-        if (startX == endX) {
-            System.out.println("vertical");
-        } else if (startY == endY) {
-            System.out.println("horizontal");
+        String[] inputStringArray = scanner.next().split("(?<=\\D)(?=\\d)|(?<=\\d)(?=\\D)");
+        int startX = Integer.valueOf(inputStringArray[1]) - 1;
+        int startY = inputStringArray[0].charAt(0) - 65;
+        inputStringArray = scanner.next().split("(?<=\\D)(?=\\d)|(?<=\\d)(?=\\D)");
+        int endX = Integer.valueOf(inputStringArray[1]) - 1;
+        int endY = inputStringArray[0].charAt(0) - 65;
+/*      System.out.println(startX + ":" + startY);
+        System.out.println(endX + ":" + endY); */
+        if ((startX >= 0 && startX < this.board.length) &&
+                (startY >= 0 && endY < this.board[0].length)) {
+            if (startX == endX) {
+                for (int i = startY; i <= endY; i++) {
+                    if (!deployShipPart(startX, i)) {
+                        System.out.println("Error! Wrong ship location! Try again:");
+                        i = endY;
+                    } else {
+                        deployShipPart(startX, i);
+                    }
+                }
+            } else if (startY == endY) {
+                for (int i = startX; i <= endX; i++) {
+                    if (!deployShipPart(i, startY)) {
+                        System.out.println("Error! Wrong ship location! Try again:");
+                        i = endY;
+                    } else {
+                        deployShipPart(i, startY);
+                    }
+                }
+            } else {
+                System.out.println("Error! Wrong ship location! Try again:");
+            }
         } else {
             System.out.println("Error! Wrong ship location! Try again:");
         }
