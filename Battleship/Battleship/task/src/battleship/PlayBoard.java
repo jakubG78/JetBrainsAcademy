@@ -52,6 +52,7 @@ public class PlayBoard {
         System.out.println(endX + ":" + endY); */
         if (startX == endX) {
             for (int i = startY; i <= endY; i++) {
+                boolean isBorderFree = false;
                 if (!deployShipPart(startX, i)) {
                     i = endY;
                 } else {
@@ -60,6 +61,7 @@ public class PlayBoard {
             }
         } else if (startY == endY) {
             for (int i = startX; i <= endX; i++) {
+
                 if (!deployShipPart(i, startY)) {
                     i = endY;
                 } else {
@@ -74,5 +76,10 @@ public class PlayBoard {
     protected boolean isFieldValid(int x, int y) {
         return x >= 0 && x < this.board.length &&
                 y >= 0 && y < this.board[0].length && this.board[x][y] == '~';
+    }
+
+    protected boolean isBorderFree(int x, int y){
+        return x < 0 && x >= this.board.length &&
+                y < 0 && y >= this.board[0].length || this.board[x][y] == '~';
     }
 }
