@@ -282,9 +282,24 @@ files:
         }
     }
   learner_created: false
-- name: src/battleship/PlayBoard.java
+- name: src/battleship/BoardManager.java
+  visible: true
+  learner_created: true
+- name: src/battleship/Board.java
+  visible: true
+  learner_created: true
+- name: src/battleship/Player.java
+  visible: true
+  learner_created: true
+- name: src/battleship/Ship.java
+  visible: true
+  learner_created: true
+- name: src/battleship/ShipType.java
   visible: true
   learner_created: true
 feedback_link: https://hyperskill.org/learn/step/10594#comment
-status: Unchecked
-record: -1
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Thu, 29 Sep 2022 19:01:31 UTC
+record: 1

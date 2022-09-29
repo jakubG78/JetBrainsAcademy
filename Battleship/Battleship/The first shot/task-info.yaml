@@ -450,6 +450,269 @@ files:
         }
     }
   learner_created: false
+- name: src/battleship/BoardManager.java
+  visible: true
+  text: |
+    package battleship;
+
+    public class BoardManager {
+
+        public static boolean isWin(Board board) {
+            return board.getSignCounter(Board.HIT) == ShipType.getAllSize();
+        }
+
+        public static boolean isCorrectPosition(int x, int y, Board board) {
+            return x >= 0 && x < board.getSize() && y >= 0 && y < board.getSize();
+        }
+
+        public static boolean isCorrectShipSize(int x1, int x2, int y1, int y2, ShipType type) {
+            boolean isHorizontal = y1 == y2 && Math.abs(x1 - x2) == type.size - 1;
+            boolean isVertical = x1 == x2 && Math.abs(y1 - y2) == type.size - 1;
+            return isHorizontal || isVertical;
+        }
+
+        public static void setShip(Ship ship, Board board) {
+            for (int x = ship.getXMin(); x <= ship.getXMax(); x++) {
+                for (int y = ship.getYMin(); y <= ship.getYMax(); y++) {
+                    board.setPosition(x, y, Board.SHIP);
+                }
+            }
+        }
+
+        public static boolean isNoNeighbour(int x1, int x2, int y1, int y2, Board board, char sign) {
+            for (int x = Math.min(x1, x2) - 1; x <= Math.max(x1, x2) + 1; x++) {
+                for (int y = Math.min(y1, y2) - 1; y <= Math.max(y1, y2) + 1; y++) {
+                    if (isCorrectPosition(x, y, board)) {
+                        if (board.getPosition(x, y) == sign) {
+                            return false;
+                        }
+                    }
+                }
+            }
+            return true;
+        }
+    }
+  learner_created: true
+- name: src/battleship/ShipType.java
+  visible: true
+  text: |-
+    package battleship;
+
+    public enum ShipType {
+
+        CARRIER("the Aircraft Carrier", 5),
+        BATTLESHIP("the Battleship", 4),
+        SUBMARINE("the Submarine", 3),
+        CRUISER("the Cruiser", 3),
+        DESTROYER("the Destroyer", 2);
+
+        final int size;
+        final String name;
+
+        ShipType(String name, int size) {
+            this.name = name;
+            this.size = size;
+        }
+
+        public static int getAllSize() {
+            int counter = 0;
+            for (ShipType type : ShipType.values()) {
+                counter += type.size;
+            }
+            return counter;
+        }
+
+        @Override
+        public String toString() {
+            return name + " (" + size + " cells)";
+        }
+    }
+  learner_created: true
+- name: src/battleship/Board.java
+  visible: true
+  text: |-
+    package battleship;
+
+    import java.util.Arrays;
+
+    public class Board {
+
+        public static final char EMPTY = '~';
+        public static final char SHIP = 'O';
+        public static final char MISS = 'M';
+        public static final char HIT = 'X';
+
+        private final char[][] array;
+
+
+        public Board(int size) {
+            this.array = new char[size][size];
+            for (int i = 0; i < size; i++) {
+                Arrays.fill(array[i], EMPTY);
+            }
+        }
+
+        public void setPosition(int x, int y, char sign) {
+            array[y][x] = sign;
+        }
+
+        public char getPosition(int x, int y) {
+            return array[y][x];
+        }
+
+        public int getX(String pos) {
+            return Integer.parseInt(pos.substring(1)) - 1;
+        }
+
+        public int getY(String pos) {
+            return pos.charAt(0) - 65;
+        }
+
+        public int getSize() {
+            return array.length;
+        }
+
+        public int getSignCounter(char sign) {
+            int counter = 0;
+            for (int x = 0; x < array.length; x++) {
+                for (int y = 0; y < array.length; y++) {
+                    if (array[y][x] == sign) {
+                        counter++;
+                    }
+                }
+            }
+            return counter;
+        }
+
+        @Override
+        public String toString() {
+            StringBuilder builder = new StringBuilder(" ");
+            for (int i = 0; i < array.length; i++) {
+                builder.append(" ").append(i + 1);
+            }
+            builder.append("\n");
+            for (int i = 0; i < array.length; i++) {
+                builder.append((char) ('A' + i));
+                for (int j = 0; j < array.length; j++) {
+                    builder.append(" ").append(array[i][j]);
+                }
+                builder.append("\n");
+            }
+            return builder.toString();
+        }
+    }
+  learner_created: true
+- name: src/battleship/Player.java
+  visible: true
+  text: |-
+    package battleship;
+
+    import java.util.ArrayList;
+
+    public class Player {
+
+        private final Board shipBoard;
+        private final Board shotBoard;
+        private final String name;
+        private final ArrayList<Ship> ships;
+
+        public Player(int size, String name) {
+            this.shipBoard = new Board(size);
+            this.shotBoard = new Board(size);
+            this.name = name;
+            this.ships = new ArrayList<>();
+        }
+
+        public void addShip(Ship ship) {
+            ships.add(ship);
+        }
+
+        public Ship getShipByPosition(int x, int y) {
+            for (Ship ship : ships) {
+                boolean isX = x >= ship.getXMin() && x <= ship.getXMax();
+                boolean isY = y >= ship.getYMin() && y <= ship.getYMax();
+                if (isX && isY) {
+                    return ship;
+                }
+            }
+            return null;
+        }
+
+        public Board getShipBoard() {
+            return shipBoard;
+        }
+
+        public Board getShotBoard() {
+            return shotBoard;
+        }
+
+        public String getName() {
+            return name;
+        }
+
+        @Override
+        public String toString() {
+            return shotBoard + "-".repeat(2 * shotBoard.getSize() + 1) + "\n" + shipBoard;
+        }
+    }
+  learner_created: true
+- name: src/battleship/Ship.java
+  visible: true
+  text: |-
+    package battleship;
+
+    public class Ship {
+
+        private final ShipType type;
+        private int hp;
+
+        private final int xMin;
+        private final int yMin;
+
+        private final int xMax;
+        private final int yMax;
+
+        public Ship(ShipType type, int x1, int x2, int y1, int y2) {
+            this.type = type;
+            this.xMin = Math.min(x1, x2);
+            this.yMin = Math.min(y1, y2);
+            this.xMax = Math.max(x1, x2);
+            this.yMax = Math.max(y1, y2);
+            this.hp = type.size;
+        }
+
+        public int getHp() {
+            return hp;
+        }
+
+        public void setHp(int hp) {
+            this.hp = hp;
+        }
+
+        public ShipType getType() {
+            return type;
+        }
+
+        public int getXMin() {
+            return xMin;
+        }
+
+        public int getYMin() {
+            return yMin;
+        }
+
+        public int getXMax() {
+            return xMax;
+        }
+
+        public int getYMax() {
+            return yMax;
+        }
+    }
+  learner_created: true
 feedback_link: https://hyperskill.org/learn/step/10595#comment
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Thu, 29 Sep 2022 19:24:54 UTC
 record: -1
