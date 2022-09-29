@@ -12,12 +12,12 @@ public class Main {
     public static void main(String[] args) {
 
         Player p1 = new Player(BOARD_SIZE, "Player 1");
-//        Player p2 = new Player(BOARD_SIZE, "Player 2");
+        Player p2 = new Player(BOARD_SIZE, "Player 2");
 
         prepare(p1);
         System.out.println("The game starts!");
-        System.out.println("\n" + p1.getShipBoard());
-        makPracticeShot(p1);
+        System.out.println("\n" + p2.getShipBoard());
+        makPracticeShot(p1, p2);
 
 /*
         boolean round = true;
@@ -43,7 +43,7 @@ public class Main {
         return makeShot(player, enemy);
     }
 
-    private static void makPracticeShot(Player player) {
+    private static void makPracticeShot(Player player, Player enemy) {
         char sign;
         Ship ship = null;
         System.out.println("Take a shot!");
@@ -56,7 +56,9 @@ public class Main {
                 if (sign == Board.EMPTY) {
                     player.getShotBoard().setPosition(x, y, Board.MISS);
                     player.getShipBoard().setPosition(x, y, Board.MISS);
-                    System.out.println("\n" + player.getShipBoard());
+                    enemy.getShotBoard().setPosition(x, y, Board.MISS);
+                    enemy.getShipBoard().setPosition(x, y, Board.MISS);
+                    System.out.println("\n" + enemy.getShipBoard());
                     System.out.println("You missed!");
                     break;
                 } else if (sign == Board.SHIP) {
@@ -64,7 +66,9 @@ public class Main {
                     ship.setHp(ship.getHp() - 1);
                     player.getShotBoard().setPosition(x, y, Board.HIT);
                     player.getShipBoard().setPosition(x, y, Board.HIT);
-                    System.out.println("\n" + player.getShipBoard());
+                    enemy.getShotBoard().setPosition(x, y, Board.HIT);
+                    enemy.getShipBoard().setPosition(x, y, Board.HIT);
+                    System.out.println("\n" + enemy.getShipBoard());
                     System.out.println("You hit a ship!");
                     break;
                 }
@@ -118,7 +122,7 @@ public class Main {
     }
 
     private static void prepare(Player player) {
-        System.out.println(player.getName() + ", place your ships on the game field\n");
+//        System.out.println(player.getName() + ", place your ships on the game field\n");
         System.out.println(player.getShipBoard());
         prepareShips(player);
         // pass();
@@ -158,7 +162,7 @@ public class Main {
                     setShip(ship, player.getShipBoard());
                     return true;
                 } else {
-                    System.out.println("\nError! You placed it too close to another one. Try again: ");
+                    System.out.println("\nError! You placed it too close to another one. Try again: \n");
                 }
             } else {
                 System.out.println("\nError! Wrong length of the Submarine! Try again: ");
