@@ -3,7 +3,7 @@ hyperskill_project:
   ide_files: https://stepik.org/media/attachments/lesson/397107/additional_files.json
   is_template_based: false
   use_ide: true
-update_date: Thu, 29 Sep 2022 18:02:01 UTC
+update_date: Tue, 04 Oct 2022 07:15:44 UTC
 stages:
 - id: 663
   step: 10594
@@ -180,3 +180,10 @@ topics:
     theory_id: 3587
   - title: Abstract class
     theory_id: 3597
+  1:
+  - title: What is a bug
+    theory_id: 5504
+  - title: Introduction to logging
+    theory_id: 5538
+  - title: Debugging techniques
+    theory_id: 13775

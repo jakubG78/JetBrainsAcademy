@@ -95,6 +95,7 @@
             <option value="$PROJECT_DIR$/Topics/Iterating over arrays/Does an array contain N" />
             <option value="$PROJECT_DIR$/Topics/Iterating over arrays/Select loops" />
             <option value="$PROJECT_DIR$/Topics/Iterating over arrays/Sum array elements greater than a value" />
+            <option value="$PROJECT_DIR$/Topics/Iterating over arrays/The minimum value of an array" />
             <option value="$PROJECT_DIR$/Topics/Iterating over arrays/The sum of array elements" />
             <option value="$PROJECT_DIR$/Topics/Iterating over arrays/Theory" />
             <option value="$PROJECT_DIR$/Topics/Multiple constructors/Class instantiation" />
@@ -103,9 +104,14 @@
             <option value="$PROJECT_DIR$/Topics/Multiple constructors/Phone" />
             <option value="$PROJECT_DIR$/Topics/Multiple constructors/Theory" />
             <option value="$PROJECT_DIR$/Topics/Multiple constructors/Time" />
+            <option value="$PROJECT_DIR$/Topics/NPE/Avoid NPE with strings" />
+            <option value="$PROJECT_DIR$/Topics/NPE/Theory" />
+            <option value="$PROJECT_DIR$/Topics/NPE/Unknown input" />
+            <option value="$PROJECT_DIR$/Topics/NPE/Where NPE might occur" />
             <option value="$PROJECT_DIR$/Topics/Overloading/Overloading methods" />
             <option value="$PROJECT_DIR$/Topics/Overloading/Theory" />
             <option value="$PROJECT_DIR$/Topics/Package/Accessible packages" />
+            <option value="$PROJECT_DIR$/Topics/Package/Binary search" />
             <option value="$PROJECT_DIR$/Topics/Package/Creating instances" />
             <option value="$PROJECT_DIR$/Topics/Package/Default packages" />
             <option value="$PROJECT_DIR$/Topics/Package/Package features" />
@@ -145,6 +151,13 @@
             <option value="$PROJECT_DIR$/Topics/The main method/The correct declaration" />
             <option value="$PROJECT_DIR$/Topics/The main method/Theory" />
             <option value="$PROJECT_DIR$/Topics/The main method/Who is the main" />
+            <option value="$PROJECT_DIR$/Topics/The while and do-while loops/Collatz conjecture" />
+            <option value="$PROJECT_DIR$/Topics/The while and do-while loops/Squares of natural numbers" />
+            <option value="$PROJECT_DIR$/Topics/The while and do-while loops/Statements" />
+            <option value="$PROJECT_DIR$/Topics/The while and do-while loops/The largest element of a sequence" />
+            <option value="$PROJECT_DIR$/Topics/The while and do-while loops/The number of loop body executions" />
+            <option value="$PROJECT_DIR$/Topics/The while and do-while loops/The smallest value" />
+            <option value="$PROJECT_DIR$/Topics/The while and do-while loops/Theory" />
             <option value="$PROJECT_DIR$/Topics/Throwing exceptions/Days of the week" />
             <option value="$PROJECT_DIR$/Topics/Throwing exceptions/The root of a number" />
             <option value="$PROJECT_DIR$/Topics/Throwing exceptions/Theory" />

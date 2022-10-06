@@ -15,20 +15,24 @@ public class Main {
         Player p2 = new Player(BOARD_SIZE, "Player 2");
 
         prepare(p1);
+/*
         System.out.println("The game starts!");
         System.out.println("\n" + p2.getShipBoard());
         makPracticeShot(p1, p2);
+*/
 
-/*
-        boolean round = true;
+//        boolean round = true;
         boolean isWin = false;
+        System.out.println("The game starts!");
         while (!isWin) {
-            isWin = round ? turn(p1, p2) : turn(p2, p1);
+            turn(p1,p2);
+
+            /*isWin = round ? turn(p1, p2) : turn(p2, p1);
             if (!isWin) {
                 round = !round;
                 pass();
-            }
-        }*/
+            }*/
+        }
     }
 
     private static void pass() {
@@ -38,8 +42,12 @@ public class Main {
     }
 
     private static boolean turn(Player player, Player enemy) {
-        System.out.println(player);
+
+        /*        System.out.println(player);
         System.out.println(player.getName() + ", it's your turn: \n");
+        return makeShot(player, enemy);
+        */
+        System.out.println("\n" + enemy.getShipBoard());
         return makeShot(player, enemy);
     }
 
