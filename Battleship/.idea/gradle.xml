@@ -110,6 +110,11 @@
             <option value="$PROJECT_DIR$/Topics/NPE/Where NPE might occur" />
             <option value="$PROJECT_DIR$/Topics/Overloading/Overloading methods" />
             <option value="$PROJECT_DIR$/Topics/Overloading/Theory" />
+            <option value="$PROJECT_DIR$/Topics/Overview of the basic program/Cats are robots" />
+            <option value="$PROJECT_DIR$/Topics/Overview of the basic program/Hello, Java" />
+            <option value="$PROJECT_DIR$/Topics/Overview of the basic program/Statements" />
+            <option value="$PROJECT_DIR$/Topics/Overview of the basic program/The Hello World program" />
+            <option value="$PROJECT_DIR$/Topics/Overview of the basic program/Theory" />
             <option value="$PROJECT_DIR$/Topics/Package/Accessible packages" />
             <option value="$PROJECT_DIR$/Topics/Package/Binary search" />
             <option value="$PROJECT_DIR$/Topics/Package/Creating instances" />
@@ -132,6 +137,7 @@
             <option value="$PROJECT_DIR$/Topics/The for-loop/Fizz Buzz" />
             <option value="$PROJECT_DIR$/Topics/The for-loop/From sum to product" />
             <option value="$PROJECT_DIR$/Topics/The for-loop/Grades" />
+            <option value="$PROJECT_DIR$/Topics/The for-loop/Numbers divisible by six" />
             <option value="$PROJECT_DIR$/Topics/The for-loop/Statements" />
             <option value="$PROJECT_DIR$/Topics/The for-loop/The count of numbers divisible by N" />
             <option value="$PROJECT_DIR$/Topics/The for-loop/The product of numbers from a to b" />
