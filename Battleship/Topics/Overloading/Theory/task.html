@@ -6,7 +6,7 @@
 
 public static float abs(float a) { return (a &lt;= 0.0F) ? 0.0F - a : a; }</code></pre>
 <p>These methods have the same name but different types of argument. They are overloaded.</p>
-<p></p><div class="alert alert-warning"><strong> </strong>It is impossible to declare more than one method with the same name and parameters (number and types), even with different return types. The return type is not considered for overloading because it's not a part of the signature.</div>
+<p></p><div class="alert alert-warning"><strong> </strong>It is impossible to declare more than one method with the same name and parameters (number, types and order), even with different return types. The return type is not considered for overloading because it's not a part of the signature.</div>
 <p>Here are four methods <code class="language-java">print</code> for printing different values.</p>
 <pre><code class="language-java">public static void print(String stringToPrint) {
     System.out.println(stringToPrint);
