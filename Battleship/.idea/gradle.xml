@@ -29,6 +29,7 @@
             <option value="$PROJECT_DIR$/Topics/Arrays as parameters/Theory" />
             <option value="$PROJECT_DIR$/Topics/Arrays as parameters/Varargs" />
             <option value="$PROJECT_DIR$/Topics/Arrays as parameters/Varargs method invocation" />
+            <option value="$PROJECT_DIR$/Topics/Branching statements/Even or odd" />
             <option value="$PROJECT_DIR$/Topics/Branching statements/The same results" />
             <option value="$PROJECT_DIR$/Topics/Branching statements/The sequence" />
             <option value="$PROJECT_DIR$/Topics/Branching statements/Theory" />
@@ -109,6 +110,8 @@
             <option value="$PROJECT_DIR$/Topics/Integer types and operations/Desks" />
             <option value="$PROJECT_DIR$/Topics/Integer types and operations/Difference of times" />
             <option value="$PROJECT_DIR$/Topics/Integer types and operations/First digit" />
+            <option value="$PROJECT_DIR$/Topics/Integer types and operations/Good rest on vacation" />
+            <option value="$PROJECT_DIR$/Topics/Integer types and operations/Reversing" />
             <option value="$PROJECT_DIR$/Topics/Integer types and operations/Squirrels and nuts" />
             <option value="$PROJECT_DIR$/Topics/Integer types and operations/The sum of digits" />
             <option value="$PROJECT_DIR$/Topics/Integer types and operations/Theory" />
