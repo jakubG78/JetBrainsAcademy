@@ -15,24 +15,24 @@ public class Main {
         Player p2 = new Player(BOARD_SIZE, "Player 2");
 
         prepare(p1);
-/*
-        System.out.println("The game starts!");
-        System.out.println("\n" + p2.getShipBoard());
-        makPracticeShot(p1, p2);
-*/
-
+// System.out.println("The game starts!");
+//        System.out.println("\n" + p2.getShipBoard());
+//        makPracticeShot(p1, p2);
 //        boolean round = true;
+
         boolean isWin = false;
         System.out.println("The game starts!");
-        while (!isWin) {
-            turn(p1,p2);
+        while (!isWin){
+             isWin = turn(p1, p1);
+        }
 
-            /*isWin = round ? turn(p1, p2) : turn(p2, p1);
+            /*        while (!isWin) {
+            isWin = round ? turn(p1, p2) : turn(p2, p1);
             if (!isWin) {
                 round = !round;
                 pass();
-            }*/
-        }
+            }
+        }*/
     }
 
     private static void pass() {
@@ -113,16 +113,20 @@ public class Main {
             }
         }
         if (isWin(player.getShotBoard())) {
-            System.out.println("\nYou sank the last ship. You won. Congratulations " + player.getName() + "!\n");
+            System.out.println("\nYou sank the last ship. You won. Congratulations!\n");
+//            System.out.println("\nYou sank the last ship. You won. Congratulations " + player.getName() + "!\n");
             return true;
         } else {
             if (sign == Board.EMPTY) {
-                System.out.println("\nYou missed!\n");
+                System.out.println("\nYou missed. Try again:\n");
+//                System.out.println("\nYou missed!\n");
             } else if (sign == Board.SHIP) {
                 if (ship.getHp() == 0) {
-                    System.out.println("\nYou sank a ship!\n");
+                    System.out.println("\nYou sank a ship! Specify a new target:\n");
+//                    System.out.println("\nYou sank a ship!\n");
                 } else {
-                    System.out.println("\nYou hit a ship!\n");
+                    System.out.println("\nYou hit a ship! Try again:\n");
+//                    System.out.println("\nYou hit a ship!\n");
                 }
             }
         }
