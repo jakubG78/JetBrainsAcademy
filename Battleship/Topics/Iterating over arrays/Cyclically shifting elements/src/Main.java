@@ -5,19 +5,19 @@ class Main {
         Scanner scanner = new Scanner(System.in);
         int arrayLength = scanner.nextInt();
         int[] numbers = new int[arrayLength];
-        int[] transformedNumbers = new int[arrayLength];
+        int[] tempNumbers = new int[arrayLength];
         for (int i = 0; i < numbers.length; i++) {
             numbers[i] = scanner.nextInt();
         }
 
         for (int i = 0; i < numbers.length; i++) {
             if (i + 1 < numbers.length) {
-                transformedNumbers[i + 1] = numbers[i];
+                tempNumbers[i + 1] = numbers[i];
             } else {
-                transformedNumbers[0] = numbers[i];
+                tempNumbers[0] = numbers[i];
             }
         }
-        for (int number : transformedNumbers) {
+        for (int number : tempNumbers) {
             System.out.printf(number + "\s");
         }
     }
