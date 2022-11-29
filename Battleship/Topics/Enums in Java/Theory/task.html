@@ -1,5 +1,5 @@
 <h2>Enums in Java</h2>
-<html><body><p>When a variable can only take one out of a small set of possible values, it's a good idea to use <strong>enums</strong> in a program. Enum is a special keyword short for <em>enumeration</em> that allows us to create a list of constants grouped by their content: seasons, colors, states, etc. When we store a bunch of constants in one place and handle them together<strong>,</strong> it helps us to avoid errors, and it makes the code look more readable and clear.</p>
+<p>When a variable can only take one out of a small set of possible values, it's a good idea to use <strong>enums</strong> in a program. Enum is a special keyword short for <em>enumeration</em> that allows us to create a list of constants grouped by their content: seasons, colors, states, etc. When we store a bunch of constants in one place and handle them together<strong>,</strong> it helps us to avoid errors, and it makes the code look more readable and clear.</p>
 <p>Now, let's look closer at how enums work.</p>
 <h5 id="defining-an-enum">Defining an enum</h5>
 <p>We can create our own enumeration in a way that is similar to declaring classes. According to the Java Code Convention, constants in an enum are written in uppercase letters. All constants should be separated with commas. Take a look at the example enum <code class="language-java">Season</code>:</p>
@@ -7,7 +7,9 @@
     SPRING, SUMMER, AUTUMN, WINTER // four instances
 }
 </code></pre>
-<p></p><div class="alert alert-primary">It is possible to declare an enum inside the class. In this case, we don't need to use <code class="language-java">public</code> modifier in the enum declaration.</div><p></p>
+<p> </p>
+<p></p><div class="alert alert-primary">It is possible to declare an enum inside a class. In this case, we don't need to use <code class="language-java">public</code> modifier in the enum declaration.</div>
+<p> </p>
 <p>In general, an enum can be considered as a class with predefined instances. Here, we have four instances of seasons <code class="language-java">SPRING</code>, <code class="language-java">SUMMER</code>, <code class="language-java">AUTUMN</code> and <code class="language-java">WINTER</code> inside the storage <code class="language-java">Season</code>.  If we want to extend the list of constants, we can simply add another instance in our enum: mid-winter, Australian winter, etc. Don't forget that in real life they have to make sense. </p>
 <p>Now that we've got an idea of how to define basic enums, let's learn how to use them in a program.</p>
 <h5 id="methods-for-processing-enums">Methods for processing enums</h5>
@@ -70,6 +72,6 @@ BLOCKED
         </code></pre>
 <p>Here, we used the <code class="language-java">values()</code> method to return an array of enum values. This loop comes in handy when iterating over enums with a large number of constants.</p>
 <h5 id="conclusion">Conclusion</h5>
-<p>An enum is a special keyword that helps us to define named constants grouped together according to their content. By defining enums you can make code more readable and avoid invalid values being passed in.<br/>
+<p>An enum is a special object that helps us to define named constants grouped together according to their content. By defining enums you can make code more readable and avoid invalid values being passed in.<br/>
 The number of constants in an enum may be extended whenever we want. Also, you can use the <code class="language-java">name()</code>, <code class="language-java">valueOf()</code>, <code class="language-java">ordinal()</code> and <code class="language-java">equals()</code> methods to process the enum. <code class="language-java">switch</code> statements and <code class="language-java">for-each</code> loops are widely used while working with enums in simple programs. </p>
-<p>Now you know how to use it, so get ready for some practice!</p></body></html>
+<p>Now you know how to use it, so get ready for some practice!</p>
