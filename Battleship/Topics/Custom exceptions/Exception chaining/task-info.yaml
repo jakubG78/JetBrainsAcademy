@@ -1,9 +1,9 @@
 type: choice
 is_multiple_choice: false
 options:
-- text: 'No, this feature is available for the standard exceptions only. '
-- text: 'Yes, custom exceptions can be chained by declaring the constructor with the
-    Throwable argument. '
+- text: "No, this feature is available for the standard exceptions only. "
+- text: "Yes, custom exceptions can be chained by declaring the constructor with the\
+    \ Throwable argument. "
 files:
 - name: src/Task.java
   visible: true

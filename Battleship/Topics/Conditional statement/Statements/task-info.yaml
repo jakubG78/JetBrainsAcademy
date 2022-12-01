@@ -4,7 +4,7 @@ options:
 - text: The construction <b>if ... else if ... else if ...</b> is possible in Java.
 - text: The result of an expression in the condition always has the <b>boolean</b>
     type.
-- text: In the conditional statement, the keyword <b>then</b> is used;
+- text: "In the conditional statement, the keyword <b>then</b> is used;"
 - text: The conditional statement always has to contain the <b>else-branch</b>.
 files:
 - name: src/Task.java

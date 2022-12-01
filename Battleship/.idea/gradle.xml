@@ -144,8 +144,11 @@
             <option value="$PROJECT_DIR$/Topics/Iterating over arrays/The sum of array elements" />
             <option value="$PROJECT_DIR$/Topics/Iterating over arrays/Theory" />
             <option value="$PROJECT_DIR$/Topics/Multidimensional array/Cinema" />
+            <option value="$PROJECT_DIR$/Topics/Multidimensional array/Create cube" />
             <option value="$PROJECT_DIR$/Topics/Multidimensional array/Fill the matrix by numbers" />
             <option value="$PROJECT_DIR$/Topics/Multidimensional array/Find the corners" />
+            <option value="$PROJECT_DIR$/Topics/Multidimensional array/Maximum element in a matrix" />
+            <option value="$PROJECT_DIR$/Topics/Multidimensional array/Multidimensional array features" />
             <option value="$PROJECT_DIR$/Topics/Multidimensional array/Practical applications" />
             <option value="$PROJECT_DIR$/Topics/Multidimensional array/Rotate a rectangle array" />
             <option value="$PROJECT_DIR$/Topics/Multidimensional array/Swap the columns" />
@@ -230,6 +233,7 @@
             <option value="$PROJECT_DIR$/Topics/Throwing exceptions/Theory" />
             <option value="$PROJECT_DIR$/Topics/Throwing exceptions/Throw a checked exception" />
             <option value="$PROJECT_DIR$/Topics/Throwing exceptions/Throw an IOException" />
+            <option value="$PROJECT_DIR$/Topics/Throwing exceptions/Throw an unchecked exception" />
             <option value="$PROJECT_DIR$/util" />
           </set>
         </option>

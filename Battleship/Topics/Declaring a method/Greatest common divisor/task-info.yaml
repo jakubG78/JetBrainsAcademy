@@ -1,12 +1,12 @@
 type: choice
 is_multiple_choice: true
 options:
-- text: gcd(6, 2) is 3
-- text: gcd(3, 7) is 7
-- text: gcd(1, 1) is 1
-- text: gcd(4, 6) is 2
-- text: gcd(3, 6) is 3
-- text: gcd(1, 3) is 3
+- text: "gcd(6, 2) is 3"
+- text: "gcd(3, 7) is 7"
+- text: "gcd(1, 1) is 1"
+- text: "gcd(4, 6) is 2"
+- text: "gcd(3, 6) is 3"
+- text: "gcd(1, 3) is 3"
 files:
 - name: src/Task.java
   visible: true

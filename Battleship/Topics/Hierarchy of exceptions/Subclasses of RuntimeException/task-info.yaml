@@ -1,11 +1,11 @@
 type: choice
 is_multiple_choice: false
 options:
-- text: IOException, Exception
-- text: StackOverFlowError, NullPointerException
-- text: IOException, NullPointerException
-- text: NullPointerException, ArithmeticException
-- text: IOException, ArithmeticException
+- text: "IOException, Exception"
+- text: "StackOverFlowError, NullPointerException"
+- text: "IOException, NullPointerException"
+- text: "NullPointerException, ArithmeticException"
+- text: "IOException, ArithmeticException"
 files:
 - name: src/Task.java
   visible: true

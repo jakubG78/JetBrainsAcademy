@@ -1,8 +1,8 @@
 type: choice
 is_multiple_choice: true
 options:
-- text: 'The following statement creates an object of the class: <b>Point3D p = new
-    Point3D();</b>'
+- text: "The following statement creates an object of the class: <b>Point3D p = new\
+    \ Point3D();</b>"
 - text: This is an incorrect class definition.
 - text: The class has three fields of the same type.
 - text: The values of the fields are always the same for all objects of this class.

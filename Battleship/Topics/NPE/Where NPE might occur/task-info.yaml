@@ -2,7 +2,7 @@ type: choice
 is_multiple_choice: true
 options:
 - text: name.length()
-- text: Objects.equals(name, surname)
+- text: "Objects.equals(name, surname)"
 - text: '"Harrison".equals(name)'
 - text: name.equals(surname)
 files:

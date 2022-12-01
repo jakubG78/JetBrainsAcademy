@@ -2,7 +2,7 @@ type: choice
 is_multiple_choice: false
 options:
 - text: Program exit after starting
-- text: No errors, the program will compile and run successfully
+- text: "No errors, the program will compile and run successfully"
 - text: Undefined behaviour
 - text: Program will not run
 - text: Compilation error

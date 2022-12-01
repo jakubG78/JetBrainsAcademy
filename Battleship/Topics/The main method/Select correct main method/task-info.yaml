@@ -2,8 +2,8 @@ type: choice
 is_multiple_choice: false
 options:
 - text: public void main(String args)
-- text: public static int main(String[] args)
-- text: public static void main(String[] args)
+- text: "public static int main(String[] args)"
+- text: "public static void main(String[] args)"
 - text: public static void main(String args)
 files:
 - name: src/Task.java

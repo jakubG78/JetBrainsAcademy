@@ -1,9 +1,10 @@
 type: choice
 is_multiple_choice: true
 options:
-- text: New news = new News("A title", "A text", new String[]{"PROGRAMMING", "JAVA"});
+- text: "New news = new News(\"A title\", \"A text\", new String[]{\"PROGRAMMING\"\
+    , \"JAVA\"});"
 - text: New news = new News("A title");
-- text: News news = new News("A title", "A text");
+- text: "News news = new News(\"A title\", \"A text\");"
 - text: News news = new News();
 files:
 - name: src/Task.java
