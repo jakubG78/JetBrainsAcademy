@@ -5,11 +5,23 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        String input = scanner.nextLine();
-        ArrayList<String> vowels = new ArrayList<>(Arrays.asList("a", "e", "i", "o", "u", "y"));
-        input = input.toLowerCase();
-         if (vowels.contains(String.valueOf(input.charAt(0)))) {
-            System.out.println("Pała!");
+        String[] letters = scanner.nextLine().toLowerCase().split("");
+        int charsToBeRepleacedCounter = 0;
+        for (int i = 0; i < letters.length - 2; i++) {
+            if (isVowel(letters[i]) && isVowel(letters[i + 1]) && isVowel(letters[i + 2])) {
+                charsToBeRepleacedCounter++;
+                letters[i + 1] = "b";
+            } else if (!isVowel(letters[i]) && !isVowel(letters[i + 1]) && !isVowel(letters[i + 2])) {
+                charsToBeRepleacedCounter++;
+                letters[i + 1] = "a";
+            }
         }
+        System.out.println(charsToBeRepleacedCounter);
+    }
+
+    public static boolean isVowel(String testedLetter) {
+        ArrayList<String> vowels = new ArrayList<>(Arrays.asList("a", "e", "i", "o", "u", "y"));
+        return vowels.contains(testedLetter);
+
     }
 }
