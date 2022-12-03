@@ -5,6 +5,12 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+        int secretCodeLength = Integer.valueOf(scanner.nextLine());
+        long pseudoRandomNumber = System.nanoTime();
+        
+    }
+
+    private static void userInterface(Scanner scanner) {
         String secretCode = "9305";
         int cowsCounter = 0;
         int bullsCounter = 0;
