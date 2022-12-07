@@ -9,51 +9,55 @@ public class Main {
         userInterface(scanner);
     }
 
-    private static String generateCode(int secretCodeLength) {
-        Long pseudoRandomNumber = 0L;
-        String numbersPool = "";
+    private static String generateCode(Scanner scanner) {
         String generatedCode = "";
         ArrayList<Character> codeNumbers = new ArrayList<>();
-        if (secretCodeLength < 10) {
-            do {
-                pseudoRandomNumber = System.nanoTime();
-                numbersPool = pseudoRandomNumber.toString();
-                for (int i = 0; i < secretCodeLength; i++) {
-                    if (!codeNumbers.contains(numbersPool.charAt(i))) {
-                        codeNumbers.add(numbersPool.charAt(i));
+        while(true) {
+            System.out.println("Please, enter the secret code's length:");
+            int secretCodeLength = Integer.valueOf(scanner.nextLine());
+            if (secretCodeLength <= 10) {
+                do {
+                    long pseudoRandomNumber = System.nanoTime();
+                    String numbersPool = String.valueOf(Long.parseLong(new StringBuilder(String.valueOf(pseudoRandomNumber))
+                            .reverse()
+                            .toString()));
+                    for (int i = 0; i < secretCodeLength; i++) {
+                        if (!codeNumbers.contains(numbersPool.charAt(i))) {
+                            codeNumbers.add(numbersPool.charAt(i));
+                        }
+                        if (codeNumbers.size() == secretCodeLength) {
+                            break;
+                        }
                     }
+                } while (codeNumbers.size() < secretCodeLength);
+                StringBuilder stringBuilder = new StringBuilder();
+                for (Character singleNumber : codeNumbers) {
+                    stringBuilder.append(singleNumber);
                 }
-            } while (codeNumbers.size() < secretCodeLength);
-            StringBuilder stringBuilder = new StringBuilder();
-            for (Character singleNumber : codeNumbers) {
-                stringBuilder.append(singleNumber);
-            }
-            generatedCode = stringBuilder.toString();
+                generatedCode = stringBuilder.toString();
+                break;
 
-        } else {
-            System.out.println("Error - secret code, too long.");
+            } else {
+                System.out.println("Error - secret code, too long. Try again.");
+            }
         }
         return generatedCode;
     }
 
     private static void userInterface(Scanner scanner) {
-        System.out.println("Please, enter the secret code's length:");
-        int secretCodeLength = Integer.valueOf(scanner.nextLine());
-        String secretCode = generateCode(secretCodeLength);
+        String secretCode = generateCode(scanner);
         int cowsCounter = 0;
         int bullsCounter = 0;
-
+        int tunsCounter = 1;
         System.out.println("Okay, let's start a game!");
         while (true) {
-            System.out.println("Turn 1:");
+            System.out.printf("Turn %d:\n", tunsCounter);
             char[] playerInput = scanner.nextLine().toCharArray();
             for (int i = 0; i < playerInput.length; i++) {
-                if (secretCode.contains(String.valueOf(playerInput[i]))) {
-                    if (secretCode.charAt(i) == playerInput[i]) {
-                        bullsCounter++;
-                    } else {
-                        cowsCounter++;
-                    }
+                if (secretCode.charAt(i) == playerInput[i]) {
+                    bullsCounter++;
+                } else if (secretCode.contains(String.valueOf(playerInput[i]))) {
+                    cowsCounter++;
                 }
             }
             System.out.print("Grade: ");
@@ -79,6 +83,7 @@ public class Main {
             }
             cowsCounter = 0;
             bullsCounter = 0;
+            tunsCounter++;
         }
     }
 }
