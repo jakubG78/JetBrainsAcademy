@@ -3,7 +3,7 @@ hyperskill_project:
   ide_files: https://stepik.org/media/attachments/lesson/209958/additional_files.json
   is_template_based: false
   use_ide: true
-update_date: "Mon, 05 Dec 2022 11:30:11 UTC"
+update_date: "Wed, 07 Dec 2022 17:13:57 UTC"
 stages:
 - id: 287
   step: 5429
@@ -16,7 +16,7 @@ stages:
   is_completed: true
 - id: 290
   step: 5432
-  is_completed: false
+  is_completed: true
 - id: 291
   step: 5433
   is_completed: false
@@ -125,10 +125,10 @@ topics:
     theory_id: 3594
   - title: Package
     theory_id: 3621
-  - title: Instance methods
-    theory_id: 3495
   - title: Constructor
     theory_id: 3535
+  - title: Instance methods
+    theory_id: 3495
   - title: Access modifiers
     theory_id: 3589
   6:

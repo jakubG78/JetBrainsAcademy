@@ -37,30 +37,48 @@ public class Main {
     }
 
     private static void userInterface(Scanner scanner) {
+        System.out.println("Please, enter the secret code's length:");
         int secretCodeLength = Integer.valueOf(scanner.nextLine());
         String secretCode = generateCode(secretCodeLength);
         int cowsCounter = 0;
         int bullsCounter = 0;
-        char[] playerInput = scanner.nextLine().toCharArray();
-        for (int i = 0; i < playerInput.length; i++) {
-            if (secretCode.contains(String.valueOf(playerInput[i]))) {
-                if (secretCode.charAt(i) == playerInput[i]) {
-                    bullsCounter++;
-                } else {
-                    cowsCounter++;
+
+        System.out.println("Okay, let's start a game!");
+        while (true) {
+            System.out.println("Turn 1:");
+            char[] playerInput = scanner.nextLine().toCharArray();
+            for (int i = 0; i < playerInput.length; i++) {
+                if (secretCode.contains(String.valueOf(playerInput[i]))) {
+                    if (secretCode.charAt(i) == playerInput[i]) {
+                        bullsCounter++;
+                    } else {
+                        cowsCounter++;
+                    }
                 }
             }
+            System.out.print("Grade: ");
+            if (bullsCounter != 0 || cowsCounter != 0) {
+                if (bullsCounter != 0) {
+                    System.out.printf("%d bull(s)", bullsCounter);
+                }
+                if (bullsCounter != 0 && cowsCounter != 0) {
+                    System.out.print(" and ");
+                }
+                if (cowsCounter != 0) {
+                    System.out.printf("%d cow(s)", cowsCounter);
+                }
+                System.out.print(".");
+            }
+            else{
+                System.out.print("None.");
+            }
+            System.out.println();
+            if(bullsCounter == secretCode.length()){
+                System.out.println("Congratulations! You guessed the secret code.");
+                break;
+            }
+            cowsCounter = 0;
+            bullsCounter = 0;
         }
-        System.out.print("Grade: ");
-        if (cowsCounter == 0 && bullsCounter == 0) {
-            System.out.print(" None.");
-        } else if (cowsCounter == 0) {
-            System.out.print(bullsCounter + " bull(s).");
-        } else if (bullsCounter == 0) {
-            System.out.print(cowsCounter + " cow(s).");
-        } else {
-            System.out.print(bullsCounter + " bull(s) and " + cowsCounter + " cow(s).");
-        }
-        System.out.println(" The secret code is " + secretCode + ".");
     }
 }

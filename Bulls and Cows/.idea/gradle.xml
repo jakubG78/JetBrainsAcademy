@@ -29,6 +29,12 @@
             <option value="$PROJECT_DIR$/Topics/Processing strings/Determine the value (1)" />
             <option value="$PROJECT_DIR$/Topics/Processing strings/The longest word" />
             <option value="$PROJECT_DIR$/Topics/Processing strings/Theory" />
+            <option value="$PROJECT_DIR$/Topics/String/ Hello  string" />
+            <option value="$PROJECT_DIR$/Topics/String/Check prefix ignoring the case" />
+            <option value="$PROJECT_DIR$/Topics/String/Extracting a substring" />
+            <option value="$PROJECT_DIR$/Topics/String/Find true expressions" />
+            <option value="$PROJECT_DIR$/Topics/String/Replacing 'a' with 'b'" />
+            <option value="$PROJECT_DIR$/Topics/String/Theory" />
             <option value="$PROJECT_DIR$/Topics/StringBuilder/Behold the power of StringBuilder" />
             <option value="$PROJECT_DIR$/Topics/StringBuilder/Concat all strings without digits" />
             <option value="$PROJECT_DIR$/Topics/StringBuilder/Multiple modifications" />
