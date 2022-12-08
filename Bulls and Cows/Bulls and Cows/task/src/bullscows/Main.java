@@ -46,11 +46,13 @@ public class Main {
 
     private static void userInterface(Scanner scanner) {
         String secretCode = generateCode(scanner);
-        int cowsCounter = 0;
-        int bullsCounter = 0;
+        int cowsCounter;
+        int bullsCounter;
         int tunsCounter = 1;
         System.out.println("Okay, let's start a game!");
         while (true) {
+            cowsCounter = 0;
+            bullsCounter = 0;
             System.out.printf("Turn %d:\n", tunsCounter);
             char[] playerInput = scanner.nextLine().toCharArray();
             for (int i = 0; i < playerInput.length; i++) {
@@ -81,8 +83,6 @@ public class Main {
                 System.out.println("Congratulations! You guessed the secret code.");
                 break;
             }
-            cowsCounter = 0;
-            bullsCounter = 0;
             tunsCounter++;
         }
     }
