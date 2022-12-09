@@ -242,8 +242,23 @@ files:
     }
   learner_created: false
 feedback_link: https://hyperskill.org/learn/step/5433#comment
-status: Solved
+status: Failed
 feedback:
-  message: Congratulations!
-  time: "Fri, 09 Dec 2022 15:21:56 UTC"
-record: -1
+  message: |-
+    Wrong answer in test #1
+
+    Cannot find number of bulls or number of cows or None after the input.
+
+    Please find below the output of your program during this failed test.
+    Note that the &#39;&gt;&#39; character indicates the beginning of the input line.
+
+    ---
+
+    Please, enter the secret code&#39;s length:
+    &gt; 1
+    Input the number of possible symbols in the code:
+    &gt; 0
+    Okay, let&#39;s start a game!
+    Turn 1:
+  time: "Fri, 09 Dec 2022 16:06:56 UTC"
+record: 5

@@ -12,34 +12,37 @@ public class Main {
 
     private static String generateCode(Scanner scanner) {
         String generatedCode;
-        ArrayList<Integer> codeNumbers = new ArrayList<>();
+        ArrayList<Character> codeChars = new ArrayList<>();
         while (true) {
             System.out.println("Please, enter the secret code's length:");
-            int secretCodeLength = Integer.valueOf(scanner.nextLine());
-            if (secretCodeLength <= 10) {
+            int secretCodeLength = Integer.parseInt(scanner.nextLine());
+            System.out.println("Input the number of possible symbols in the code:");
+            int howManyLettersInCode = Integer.parseInt(scanner.nextLine());
+            String codePool = "0123456789abcdefghijklmnopqrstuvwxyz";
+            if (secretCodeLength < 36) {
                 Random random = new Random();
                 do {
-                    int tempNumber;
+                    char tempChar = codePool.charAt(random.nextInt(howManyLettersInCode - 1));
                     for (int i = 0; i < secretCodeLength; i++) {
-                        tempNumber = random.nextInt(9);
-                        if (tempNumber == 0 && i == 0) {
+                        if (tempChar == '0' && i == 0) {
                             break;
                         }
-                        if (!codeNumbers.contains(tempNumber)) {
-                            codeNumbers.add(tempNumber);
+                        if (!codeChars.contains(tempChar)) {
+                            codeChars.add(tempChar);
                         }
-                        if (codeNumbers.size() == secretCodeLength) {
+                        if (codeChars.size() == secretCodeLength) {
                             break;
                         }
                     }
-                } while (codeNumbers.size() < secretCodeLength);
+                } while (codeChars.size() < secretCodeLength);
                 StringBuilder stringBuilder = new StringBuilder();
-                for (int singleNumber : codeNumbers) {
+                for (char singleNumber : codeChars) {
                     stringBuilder.append(singleNumber);
                 }
                 generatedCode = stringBuilder.toString();
+                System.out.println("The secret is prepared: " + printStars(secretCodeLength) +
+                        " (0-9, a-" + codePool.charAt(howManyLettersInCode - 1) + ").");
                 break;
-
             } else {
                 System.out.println("Error - secret code, too long. Try again.");
             }
@@ -82,11 +85,19 @@ public class Main {
                 System.out.print("None.");
             }
             System.out.println();
-            if(bullsCounter == secretCode.length()){
+            if (bullsCounter == secretCode.length()) {
                 System.out.println("Congratulations! You guessed the secret code.");
                 break;
             }
             tunsCounter++;
         }
+    }
+
+    private static String printStars(int howManyStarsToPrint) {
+        StringBuilder stringBuilder = new StringBuilder();
+        for (int i = 0; i < howManyStarsToPrint; i++) {
+            stringBuilder.append("*");
+        }
+        return stringBuilder.toString();
     }
 }
