@@ -258,7 +258,6 @@ feedback:
     &gt; 1
     Input the number of possible symbols in the code:
     &gt; 0
-    Okay, let&#39;s start a game!
-    Turn 1:
-  time: "Fri, 09 Dec 2022 16:06:56 UTC"
+    Error: it&#39;s not possible to generate a code with a length of 1 with 0 unique symbols.
+  time: "Fri, 09 Dec 2022 17:38:00 UTC"
 record: 5

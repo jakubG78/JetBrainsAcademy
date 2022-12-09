@@ -15,11 +15,21 @@ public class Main {
         ArrayList<Character> codeChars = new ArrayList<>();
         while (true) {
             System.out.println("Please, enter the secret code's length:");
+            if (!scanner.hasNextInt()) {
+                System.out.println("Error: \"" + scanner.nextLine() + "\" isn't a valid number.");
+                return "error";
+            }
+
             int secretCodeLength = Integer.parseInt(scanner.nextLine());
             System.out.println("Input the number of possible symbols in the code:");
             int howManyLettersInCode = Integer.parseInt(scanner.nextLine());
+            if (secretCodeLength > howManyLettersInCode || secretCodeLength == 0) {
+                System.out.println("Error: it's not possible to generate " +
+                        "a code with a length of " + secretCodeLength + " with " + howManyLettersInCode + " unique symbols.");
+                return "error";
+            }
             String codePool = "0123456789abcdefghijklmnopqrstuvwxyz";
-            if (secretCodeLength < 36) {
+            if (howManyLettersInCode <= 36) {
                 Random random = new Random();
                 do {
                     char tempChar = codePool.charAt(random.nextInt(howManyLettersInCode - 1));
@@ -44,7 +54,8 @@ public class Main {
                         " (0-9, a-" + codePool.charAt(howManyLettersInCode - 1) + ").");
                 break;
             } else {
-                System.out.println("Error - secret code, too long. Try again.");
+                System.out.println("Error: maximum number of possible symbols in the code is 36 (0-9, a-z).");
+                return "error";
             }
         }
         return generatedCode;
@@ -55,41 +66,42 @@ public class Main {
         int cowsCounter;
         int bullsCounter;
         int tunsCounter = 1;
-        System.out.println("Okay, let's start a game!");
-        while (true) {
-            cowsCounter = 0;
-            bullsCounter = 0;
-            System.out.printf("Turn %d:\n", tunsCounter);
-            char[] playerInput = scanner.nextLine().toCharArray();
-            for (int i = 0; i < playerInput.length; i++) {
-                if (secretCode.charAt(i) == playerInput[i]) {
-                    bullsCounter++;
-                } else if (secretCode.contains(String.valueOf(playerInput[i]))) {
-                    cowsCounter++;
+        if (!secretCode.equals("error")) {
+            System.out.println("Okay, let's start a game!");
+            while (true) {
+                cowsCounter = 0;
+                bullsCounter = 0;
+                System.out.printf("Turn %d:\n", tunsCounter);
+                char[] playerInput = scanner.nextLine().toCharArray();
+                for (int i = 0; i < playerInput.length; i++) {
+                    if (secretCode.charAt(i) == playerInput[i]) {
+                        bullsCounter++;
+                    } else if (secretCode.contains(String.valueOf(playerInput[i]))) {
+                        cowsCounter++;
+                    }
                 }
-            }
-            System.out.print("Grade: ");
-            if (bullsCounter != 0 || cowsCounter != 0) {
-                if (bullsCounter != 0) {
-                    System.out.printf("%d bull(s)", bullsCounter);
+                System.out.print("Grade: ");
+                if (bullsCounter != 0 || cowsCounter != 0) {
+                    if (bullsCounter != 0) {
+                        System.out.printf("%d bull(s)", bullsCounter);
+                    }
+                    if (bullsCounter != 0 && cowsCounter != 0) {
+                        System.out.print(" and ");
+                    }
+                    if (cowsCounter != 0) {
+                        System.out.printf("%d cow(s)", cowsCounter);
+                    }
+                    System.out.print(".");
+                } else {
+                    System.out.print("None.");
                 }
-                if (bullsCounter != 0 && cowsCounter != 0) {
-                    System.out.print(" and ");
+                System.out.println();
+                if (bullsCounter == secretCode.length()) {
+                    System.out.println("Congratulations! You guessed the secret code.");
+                    break;
                 }
-                if (cowsCounter != 0) {
-                    System.out.printf("%d cow(s)", cowsCounter);
-                }
-                System.out.print(".");
+                tunsCounter++;
             }
-            else{
-                System.out.print("None.");
-            }
-            System.out.println();
-            if (bullsCounter == secretCode.length()) {
-                System.out.println("Congratulations! You guessed the secret code.");
-                break;
-            }
-            tunsCounter++;
         }
     }
 
