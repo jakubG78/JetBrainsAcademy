@@ -1,6 +1,7 @@
 package bullscows;
 
 import java.util.ArrayList;
+import java.util.Random;
 import java.util.Scanner;
 
 public class Main {
@@ -10,20 +11,22 @@ public class Main {
     }
 
     private static String generateCode(Scanner scanner) {
-        String generatedCode = "";
-        ArrayList<Character> codeNumbers = new ArrayList<>();
-        while(true) {
+        String generatedCode;
+        ArrayList<Integer> codeNumbers = new ArrayList<>();
+        while (true) {
             System.out.println("Please, enter the secret code's length:");
             int secretCodeLength = Integer.valueOf(scanner.nextLine());
             if (secretCodeLength <= 10) {
+                Random random = new Random();
                 do {
-                    long pseudoRandomNumber = System.nanoTime();
-                    String numbersPool = String.valueOf(Long.parseLong(new StringBuilder(String.valueOf(pseudoRandomNumber))
-                            .reverse()
-                            .toString()));
+                    int tempNumber;
                     for (int i = 0; i < secretCodeLength; i++) {
-                        if (!codeNumbers.contains(numbersPool.charAt(i))) {
-                            codeNumbers.add(numbersPool.charAt(i));
+                        tempNumber = random.nextInt(9);
+                        if (tempNumber == 0 && i == 0) {
+                            break;
+                        }
+                        if (!codeNumbers.contains(tempNumber)) {
+                            codeNumbers.add(tempNumber);
                         }
                         if (codeNumbers.size() == secretCodeLength) {
                             break;
@@ -31,7 +34,7 @@ public class Main {
                     }
                 } while (codeNumbers.size() < secretCodeLength);
                 StringBuilder stringBuilder = new StringBuilder();
-                for (Character singleNumber : codeNumbers) {
+                for (int singleNumber : codeNumbers) {
                     stringBuilder.append(singleNumber);
                 }
                 generatedCode = stringBuilder.toString();
