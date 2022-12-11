@@ -22,28 +22,27 @@ public class Main {
 
             int secretCodeLength = Integer.parseInt(scanner.nextLine());
             System.out.println("Input the number of possible symbols in the code:");
-            int howManyLettersInCode = Integer.parseInt(scanner.nextLine());
-            if (secretCodeLength > howManyLettersInCode || secretCodeLength == 0) {
-                System.out.println("Error: it's not possible to generate " +
-                        "a code with a length of " + secretCodeLength + " with " + howManyLettersInCode + " unique symbols.");
+            int howManySymbolsInCode = Integer.parseInt(scanner.nextLine());
+            if (secretCodeLength > howManySymbolsInCode) {
+                System.out.println("Error: it's not possible to generate a code with a length of "
+                        + secretCodeLength + " with " + howManySymbolsInCode + " unique symbols.");
                 return "error";
             }
             String codePool = "0123456789abcdefghijklmnopqrstuvwxyz";
-            if (howManyLettersInCode <= 36) {
+            if (secretCodeLength < 36 && howManySymbolsInCode <= 36) {
                 Random random = new Random();
                 do {
-                    char tempChar = codePool.charAt(random.nextInt(howManyLettersInCode - 1));
-                    for (int i = 0; i < secretCodeLength; i++) {
-                        if (tempChar == '0' && i == 0) {
-                            break;
-                        }
-                        if (!codeChars.contains(tempChar)) {
-                            codeChars.add(tempChar);
-                        }
-                        if (codeChars.size() == secretCodeLength) {
-                            break;
-                        }
+                    char tempChar = codePool.charAt(random.nextInt(howManySymbolsInCode));
+                    if (tempChar == '0' && codeChars.isEmpty()) {
+                        break;
                     }
+                    if (!codeChars.contains(tempChar)) {
+                        codeChars.add(tempChar);
+                    }
+                    if (codeChars.size() == secretCodeLength) {
+                        break;
+                    }
+
                 } while (codeChars.size() < secretCodeLength);
                 StringBuilder stringBuilder = new StringBuilder();
                 for (char singleNumber : codeChars) {
@@ -51,7 +50,7 @@ public class Main {
                 }
                 generatedCode = stringBuilder.toString();
                 System.out.println("The secret is prepared: " + printStars(secretCodeLength) +
-                        " (0-9, a-" + codePool.charAt(howManyLettersInCode - 1) + ").");
+                        " (0-9, a-" + codePool.charAt(howManySymbolsInCode - 1) + ").");
                 break;
             } else {
                 System.out.println("Error: maximum number of possible symbols in the code is 36 (0-9, a-z).");
