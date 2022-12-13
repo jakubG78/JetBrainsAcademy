@@ -1,5 +1,5 @@
 <h2>Multidimensional array</h2>
-<html><body><p>You are already familiar with a structure called an array. It allows you to store elements of the same type. But why limit yourself to just one dimension? It would be so convenient to store matrices, 3D objects, or even 4D objects in one array! And now is the time: the adventure into multidimensional arrays is starting in three...two...one!</p>
+<p>You are already familiar with a structure called an array. It allows you to store elements of the same type. But why limit yourself to just one dimension? It would be so convenient to store matrices, 3D objects, or even 4D objects in one array! And now is the time: the adventure into multidimensional arrays is starting in three...two...one!</p>
 <h5 id="an-array-of-arrays">An array of arrays</h5>
 <p>First, let's figure out what do we mean by a <strong>multidimensional array</strong>.</p>
 <p>Basically, we can say that a multidimensional array is an array of arrays. That is, in order to create a multidimensional array, we need to think of an array as an element of another array. Eventually, we get a multidimensional array.</p>
@@ -23,7 +23,9 @@
         {1, 2, 3, 4}, // the length is 4
         {3, 3, 3}     // the length is 3
 };</code></pre>
-<p></p><div class="alert alert-primary">You can create nested arrays with different numbers of elements in the same 2D array.</div><p></p>
+<p> </p>
+<p></p><div class="alert alert-primary">You can create nested arrays with different numbers of elements in the same 2D array.</div>
+<p> </p>
 <h5 id="access-the-elements">Access the elements</h5>
 <p>Let's see how we can access an element of an array. The idea is exactly the same as for one-dimensional arrays. Only now we have to write <em>two </em>indices: first the index of the element of the main array, and then the index of the nested array.</p>
 <p>Suppose we need to access an element that is in the first row and the first column. How do we find this particular element? As you recall, a 2D array is an array of arrays. So, start by selecting one of the nested arrays by its index in the main array. The principle is similar to a 1D array.</p>
@@ -37,7 +39,9 @@
 <p style="text-align: center;"><img alt="" height="113" src="https://ucarecdn.com/0627736a-e7b6-44f6-98d4-6ef6b724ea07/" width="539"/></p>
 <p>Let's create a new variable <code class="language-java">int number </code>and put in it the element of the first row and the first column of our array:</p>
 <pre><code class="language-java">int number = twoDimArray[0][0]; // it is 3</code></pre>
-<p></p><div class="alert alert-warning">Remember that in all arrays, indexing starts with 0!</div><p></p>
+<p> </p>
+<p></p><div class="alert alert-warning">Remember that in all arrays, indexing starts with 0!</div>
+<p> </p>
 <p>The following code will show all the elements of the two-dimensional array <code class="language-java">twoDimArray</code>:</p>
 <pre><code class="language-java">System.out.println(twoDimArray[0][0]); // 3
 System.out.println(twoDimArray[0][1]); // 4
@@ -111,7 +115,7 @@ for (int i = 0; i &lt; threeDimArray.length; i++) {
 System.out.println(threeDimArray[0][1][0]); // 1
 System.out.println(threeDimArray[1][0][1]); // 3
 System.out.println(threeDimArray[1][2][3]); // 5 – the last element of the last array</code></pre>
-<p>Notice, that you can simplify your code by using<strong> </strong><em>for-each</em> loop and methods of the class <code class="language-java">Arrays</code> to fill and print multidimensional arrays.</p>
+<p>Notice, that you can simplify your code by using<strong> </strong><em>for-each</em> loops and methods of the class <code class="language-java">Arrays</code> to fill and print multidimensional arrays.</p>
 <p>And, of course, you can create arrays of other dimensions by analogy — 4, 5, 6, and so on. Just remember that an element of a multidimensional array has as many indices as dimensions of that array.</p>
 <h5 id="conclusion">Conclusion</h5>
 <p>Let's recap. You have figured out what multidimensional arrays are and how to create them in Java. Here are the main points to take away:</p>
@@ -120,4 +124,4 @@ System.out.println(threeDimArray[1][2][3]); // 5 – the last element of the las
 <li>indexing starts with 0;</li>
 <li>to find an element of a multidimensional array, you need a number of indices equal to the array dimension;</li>
 <li>you can assemble arrays of different sizes in a multidimensional array.</li>
-</ul></body></html>
+</ul>
