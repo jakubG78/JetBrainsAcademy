@@ -1,189 +1,70 @@
 package battleship;
 
+import java.util.ArrayList;
 import java.util.Scanner;
-
-import static battleship.BoardManager.*;
 
 public class Main {
 
-    public static final int BOARD_SIZE = 10;
-    public static final Scanner SCANNER = new Scanner(System.in);
+    public static Scanner scanner = new Scanner(System.in);
+    private static String[][] fogGameField;
 
     public static void main(String[] args) {
 
-        Player p1 = new Player(BOARD_SIZE, "Player 1");
-        Player p2 = new Player(BOARD_SIZE, "Player 2");
+        ArrayList<Battleship> players = new ArrayList<>(); // to hold all players
+        int i = 0; // to hold the players number
 
-        prepare(p1);
-// System.out.println("The game starts!");
-//        System.out.println("\n" + p2.getShipBoard());
-//        makPracticeShot(p1, p2);
-//        boolean round = true;
+        while (i < 2) { // we accept only two players
+            players.add(new Battleship("player " + (i + 1))); // create a new player and pass the player to the array
+            fogGameField = players.get(i).getFogGameField(); // in each shooting we display initial Fog Game Field, that is untouched
 
-        boolean isWin = false;
-        System.out.println("The game starts!");
-        while (!isWin){
-             isWin = turn(p1, p1);
-        }
+            System.out.printf("Player %d place your ships on the game field\n\n", i + 1);
 
-            /*        while (!isWin) {
-            isWin = round ? turn(p1, p2) : turn(p2, p1);
-            if (!isWin) {
-                round = !round;
-                pass();
-            }
-        }*/
-    }
+            // prepare the game fields
+            Battleship.printField(players.get(i).getGameField());
+            players.get(i).aircraftCarrier();
+            players.get(i).battleship();
+            players.get(i).submarine();
+            players.get(i).cruiser();
+            players.get(i).destroyer();
 
-    private static void pass() {
-        System.out.println("Press Enter and pass the move to another player");
-        SCANNER.nextLine();
-        SCANNER.nextLine();
-    }
-
-    private static boolean turn(Player player, Player enemy) {
-
-        /*        System.out.println(player);
-        System.out.println(player.getName() + ", it's your turn: \n");
-        return makeShot(player, enemy);
-        */
-        System.out.println("\n" + enemy.getShipBoard());
-        return makeShot(player, enemy);
-    }
-
-    private static void makPracticeShot(Player player, Player enemy) {
-        char sign;
-        Ship ship = null;
-        System.out.println("Take a shot!");
-        while (true) {
-            String shotPos = SCANNER.next().toUpperCase();
-            int x = player.getShipBoard().getX(shotPos);
-            int y = player.getShipBoard().getY(shotPos);
-            if (isCorrectPosition(x, y, player.getShipBoard())) {
-                sign = player.getShipBoard().getPosition(x, y);
-                if (sign == Board.EMPTY) {
-                    player.getShotBoard().setPosition(x, y, Board.MISS);
-                    player.getShipBoard().setPosition(x, y, Board.MISS);
-                    enemy.getShotBoard().setPosition(x, y, Board.MISS);
-                    enemy.getShipBoard().setPosition(x, y, Board.MISS);
-                    System.out.println("\n" + enemy.getShipBoard());
-                    System.out.println("You missed!");
-                    break;
-                } else if (sign == Board.SHIP) {
-                    ship = player.getShipByPosition(x, y);
-                    ship.setHp(ship.getHp() - 1);
-                    player.getShotBoard().setPosition(x, y, Board.HIT);
-                    player.getShipBoard().setPosition(x, y, Board.HIT);
-                    enemy.getShotBoard().setPosition(x, y, Board.HIT);
-                    enemy.getShipBoard().setPosition(x, y, Board.HIT);
-                    System.out.println("\n" + enemy.getShipBoard());
-                    System.out.println("You hit a ship!");
-                    break;
-                }
+            System.out.println("Press Enter and pass the move to another player");
+            if (scanner.nextLine().equals("")) { // if the user press enter go and create 2. player
+                i++;
             } else {
-                System.out.println("\nError! You entered the wrong coordinates! Try again: \n");
-            }
-        }
-    }
-
-
-    private static boolean makeShot(Player player, Player enemy) {
-        char sign;
-        Ship ship = null;
-        while (true) {
-
-            String shotPos = SCANNER.next().toUpperCase();
-            int x = enemy.getShipBoard().getX(shotPos);
-            int y = enemy.getShipBoard().getY(shotPos);
-
-            if (isCorrectPosition(x, y, enemy.getShipBoard())) {
-                sign = enemy.getShipBoard().getPosition(x, y);
-                if (sign == Board.EMPTY) {
-                    player.getShotBoard().setPosition(x, y, Board.MISS);
-                    enemy.getShipBoard().setPosition(x, y, Board.MISS);
-                } else if (sign == Board.SHIP) {
-                    ship = enemy.getShipByPosition(x, y);
-                    ship.setHp(ship.getHp() - 1);
-                    player.getShotBoard().setPosition(x, y, Board.HIT);
-                    enemy.getShipBoard().setPosition(x, y, Board.HIT);
-                }
                 break;
-            } else {
-                System.out.println("\nError! You entered the wrong coordinates! Try again: \n");
             }
         }
-        if (isWin(player.getShotBoard())) {
-            System.out.println("\nYou sank the last ship. You won. Congratulations!\n");
-//            System.out.println("\nYou sank the last ship. You won. Congratulations " + player.getName() + "!\n");
-            return true;
-        } else {
-            if (sign == Board.EMPTY) {
-                System.out.println("\nYou missed. Try again:\n");
-//                System.out.println("\nYou missed!\n");
-            } else if (sign == Board.SHIP) {
-                if (ship.getHp() == 0) {
-                    System.out.println("\nYou sank a ship! Specify a new target:\n");
-//                    System.out.println("\nYou sank a ship!\n");
-                } else {
-                    System.out.println("\nYou hit a ship! Try again:\n");
-//                    System.out.println("\nYou hit a ship!\n");
-                }
-            }
-        }
-        return false;
+        play(players); // two players are ready to play game
     }
 
-    private static void prepare(Player player) {
-//        System.out.println(player.getName() + ", place your ships on the game field\n");
-        System.out.println(player.getShipBoard());
-        prepareShips(player);
-        // pass();
+    private static void play(ArrayList<Battleship> players) {
+        Battleship player1 = players.get(0); // get player1 object
+        Battleship player2 = players.get(1); // get player2 object
+
+        // this two method calls each other until we hit the another things which is not enter.
+        player1Shoot(player1, player2); // pass the all two players
+        player2Shoot(player1, player2);
     }
 
-    private static void prepareShips(Player player) {
-        for (ShipType type : ShipType.values()) {
-            System.out.println("Enter the coordinates of " + type + ":\n");
-            boolean isSuccess = false;
-            while (!isSuccess) {
-                isSuccess = tryPrepareShip(player, type);
-            }
-            System.out.println("\n" + player.getShipBoard());
+    private static void player2Shoot(Battleship player1, Battleship player2) { // the method is shooting for player2
+        Battleship.printField(fogGameField); // print the initial fogGamePlayer that we already declare and initialize in main method
+        System.out.println("---------------------");
+        Battleship.printField(player2.getGameField()); // we are player2 so we can see our gameField
+        player2.takeAShoot(player1.getGameField()); // we are player2, and we should attack player1's gameField.
+        System.out.println("Press Enter and pass the move to another player");
+        if (scanner.nextLine().equals("")) { // pass the move to player1
+            player1Shoot(player1, player2);
         }
     }
 
-    private static boolean tryPrepareShip(Player player, ShipType type) {
-        String startPos = SCANNER.next().toUpperCase();
-        String endPos = SCANNER.next().toUpperCase();
-
-        final int X1;
-        final int Y1;
-        final int X2;
-        final int Y2;
-
-        try {
-
-            X1 = player.getShipBoard().getX(startPos);
-            Y1 = player.getShipBoard().getY(startPos);
-            X2 = player.getShipBoard().getX(endPos);
-            Y2 = player.getShipBoard().getY(endPos);
-
-            if (isCorrectShipSize(X1, X2, Y1, Y2, type)) {
-                if (isNoNeighbour(X1, X2, Y1, Y2, player.getShipBoard(), Board.SHIP)) {
-                    Ship ship = new Ship(type, X1, X2, Y1, Y2);
-                    player.addShip(ship);
-                    setShip(ship, player.getShipBoard());
-                    return true;
-                } else {
-                    System.out.println("\nError! You placed it too close to another one. Try again: \n");
-                }
-            } else {
-                System.out.println("\nError! Wrong length of the Submarine! Try again: ");
-            }
-
-        } catch (Exception e) {
-            System.out.println("\nError! Invalid input format! Try again: ");
-            return false;
+    private static void player1Shoot(Battleship player1, Battleship player2) { // the method is shooting for player1
+        Battleship.printField(fogGameField);// print the initial fogGamePlayer that we already declare and initialize in main method
+        System.out.println("---------------------");
+        Battleship.printField(player1.getGameField()); // we are player1 so we can see our gameField
+        player1.takeAShoot(player2.getGameField()); // we are player1, and we should attack player2's gameField.
+        System.out.println("Press Enter and pass the move to another player");
+        if (scanner.nextLine().equals("")) { // pass the move to player1
+            player2Shoot(player1, player2);
         }
-        return false;
     }
 }

@@ -112,6 +112,8 @@
             <option value="$PROJECT_DIR$/Topics/Getters and setters/The name of getter" />
             <option value="$PROJECT_DIR$/Topics/Getters and setters/The name of setter" />
             <option value="$PROJECT_DIR$/Topics/Getters and setters/Theory" />
+            <option value="$PROJECT_DIR$/Topics/Hiding and overriding/Shapes area" />
+            <option value="$PROJECT_DIR$/Topics/Hiding and overriding/Theory" />
             <option value="$PROJECT_DIR$/Topics/Hierarchy of exceptions/BadRequestException" />
             <option value="$PROJECT_DIR$/Topics/Hierarchy of exceptions/Base class" />
             <option value="$PROJECT_DIR$/Topics/Hierarchy of exceptions/Overview the hierarchy" />
@@ -168,6 +170,7 @@
             <option value="$PROJECT_DIR$/Topics/Multiple constructors/Phone" />
             <option value="$PROJECT_DIR$/Topics/Multiple constructors/Theory" />
             <option value="$PROJECT_DIR$/Topics/Multiple constructors/Time" />
+            <option value="$PROJECT_DIR$/Topics/NPE/Avoid NPE" />
             <option value="$PROJECT_DIR$/Topics/NPE/Avoid NPE with strings" />
             <option value="$PROJECT_DIR$/Topics/NPE/Theory" />
             <option value="$PROJECT_DIR$/Topics/NPE/Unknown input" />

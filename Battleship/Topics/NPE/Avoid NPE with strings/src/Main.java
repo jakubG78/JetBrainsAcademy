@@ -1,3 +1,4 @@
+import java.util.Objects;
 import java.util.Scanner;
 
 
@@ -5,8 +6,15 @@ public class Main {
 
     public static String concatStrings(String str1, String str2) {
         /* write your code here */
-
-        return str1.concat(str2);
+        if (Objects.equals(str1, null) && Objects.equals(str2, null)) {
+            return "";
+        } else if (Objects.equals(str1, null)) {
+            return str2;
+        } else if (Objects.equals(str2, null)) {
+            return str1;
+        } else {
+            return str1.concat(str2);
+        }
     }
 
     /* Do not change code below */

@@ -18,8 +18,9 @@ class Main {
             for (int j = 0; j < seats[0].length; j++) {
                 if (seats[i][j] == 0) {
                     freeSeatsCounter++;
-                    if (freeSeatsCounter >= seatsInLine) {
+                    if (freeSeatsCounter == seatsInLine) {
                         searchedRow = i + 1;
+                        i = seats.length +1;
                         break;
                     }
                 } else {
