@@ -189,6 +189,11 @@
             <option value="$PROJECT_DIR$/Topics/Package/Package features" />
             <option value="$PROJECT_DIR$/Topics/Package/Sorting arrays" />
             <option value="$PROJECT_DIR$/Topics/Package/Theory" />
+            <option value="$PROJECT_DIR$/Topics/Polymorphism/Notification" />
+            <option value="$PROJECT_DIR$/Topics/Polymorphism/Publication and its subclasses" />
+            <option value="$PROJECT_DIR$/Topics/Polymorphism/Runtime method resolution" />
+            <option value="$PROJECT_DIR$/Topics/Polymorphism/The time of overloading" />
+            <option value="$PROJECT_DIR$/Topics/Polymorphism/Theory" />
             <option value="$PROJECT_DIR$/Topics/Processing strings/Convert a date" />
             <option value="$PROJECT_DIR$/Topics/Processing strings/Create an euphonious word" />
             <option value="$PROJECT_DIR$/Topics/Processing strings/Determine the value" />
@@ -252,6 +257,7 @@
             <option value="$PROJECT_DIR$/Topics/The while and do-while loops/The largest element of a sequence" />
             <option value="$PROJECT_DIR$/Topics/The while and do-while loops/The number of loop body executions" />
             <option value="$PROJECT_DIR$/Topics/The while and do-while loops/The smallest value" />
+            <option value="$PROJECT_DIR$/Topics/The while and do-while loops/The sum of elements" />
             <option value="$PROJECT_DIR$/Topics/The while and do-while loops/Theory" />
             <option value="$PROJECT_DIR$/Topics/Throwing exceptions/Days of the week" />
             <option value="$PROJECT_DIR$/Topics/Throwing exceptions/The root of a number" />
