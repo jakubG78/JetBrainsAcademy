@@ -112,8 +112,12 @@
             <option value="$PROJECT_DIR$/Topics/Getters and setters/The name of getter" />
             <option value="$PROJECT_DIR$/Topics/Getters and setters/The name of setter" />
             <option value="$PROJECT_DIR$/Topics/Getters and setters/Theory" />
+            <option value="$PROJECT_DIR$/Topics/Hiding and overriding/Correctly overridden methods" />
+            <option value="$PROJECT_DIR$/Topics/Hiding and overriding/Saying animals" />
             <option value="$PROJECT_DIR$/Topics/Hiding and overriding/Shapes area" />
             <option value="$PROJECT_DIR$/Topics/Hiding and overriding/Theory" />
+            <option value="$PROJECT_DIR$/Topics/Hiding and overriding/Unusual overriding" />
+            <option value="$PROJECT_DIR$/Topics/Hiding and overriding/Which methods cannot be overridden" />
             <option value="$PROJECT_DIR$/Topics/Hierarchy of exceptions/BadRequestException" />
             <option value="$PROJECT_DIR$/Topics/Hierarchy of exceptions/Base class" />
             <option value="$PROJECT_DIR$/Topics/Hierarchy of exceptions/Overview the hierarchy" />
