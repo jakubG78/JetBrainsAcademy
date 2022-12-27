@@ -426,17 +426,8 @@ files:
     }
   learner_created: false
 feedback_link: https://hyperskill.org/projects/181/stages/914/implement#comment
-status: Failed
+status: Solved
 feedback:
-  message: |-
-    Wrong answer in test #1
-
-    Your program should prompt the user with the message &quot;Do you want to convert /from decimal of /to decimal? (To quit type /exit)&quot;
-
-    Please find below the output of your program during this failed test.
-
-    ---
-
-    Enter number in decimal system:
-  time: "Tue, 27 Dec 2022 20:26:29 UTC"
+  message: Congratulations!
+  time: "Tue, 27 Dec 2022 22:05:19 UTC"
 record: 2

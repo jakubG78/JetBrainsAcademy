@@ -21,6 +21,15 @@ public class Main {
                     System.out.println("Conversion result: " + convertDecNumber(decimalNumber, targetNumberBase));
                     break;
 
+                case "/to":
+                    System.out.print("Enter source number: ");
+                    String sourceNumber = scanner.nextLine();
+                    System.out.print("Enter source base: ");
+                    int sourceNoBase = scanner.nextInt();
+                    scanner.nextLine();
+                    System.out.println("Conversion to decimal result: " + convertToDecimal(sourceNumber, sourceNoBase));
+                    break;
+
                 case "/exit":
                     toQuit = true;
                     break;
@@ -29,6 +38,7 @@ public class Main {
                     System.out.println("Unknown command. Try again.");
                     break;
             }
+            System.out.println();
         }
     }
 
@@ -49,6 +59,10 @@ public class Main {
 
         }
         return targetNumber.reverse().toString();
+    }
+
+    public static int convertToDecimal(String sourceNumber, int sourceNoBase) {
+        return Integer.parseInt(sourceNumber, sourceNoBase);
     }
 
     private static char getDigitAboveNine(int rest) {
