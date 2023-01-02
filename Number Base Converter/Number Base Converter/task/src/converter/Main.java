@@ -12,31 +12,24 @@ public class Main {
             System.out.print("Do you want to convert /from decimal or /to decimal? (To quit type /exit) ");
             inputCommand = scanner.nextLine();
             switch (inputCommand) {
-                case "/from":
+                case "/from" -> {
                     System.out.print("Enter number in decimal system: ");
                     int decimalNumber = scanner.nextInt();
                     System.out.print("Enter target base: ");
                     int targetNumberBase = scanner.nextInt();
                     scanner.nextLine();
                     System.out.println("Conversion result: " + convertDecNumber(decimalNumber, targetNumberBase));
-                    break;
-
-                case "/to":
+                }
+                case "/to" -> {
                     System.out.print("Enter source number: ");
                     String sourceNumber = scanner.nextLine();
                     System.out.print("Enter source base: ");
                     int sourceNoBase = scanner.nextInt();
                     scanner.nextLine();
                     System.out.println("Conversion to decimal result: " + convertToDecimal(sourceNumber, sourceNoBase));
-                    break;
-
-                case "/exit":
-                    toQuit = true;
-                    break;
-
-                default:
-                    System.out.println("Unknown command. Try again.");
-                    break;
+                }
+                case "/exit" -> toQuit = true;
+                default -> System.out.println("Unknown command. Try again.");
             }
             System.out.println();
         }
