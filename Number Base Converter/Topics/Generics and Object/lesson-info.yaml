@@ -3,3 +3,5 @@ content:
 - What is a type
 - Boxes are not just objects
 - Initialize an object of a generic class
+- What is wrong
+- Correct the usage of non-generic class

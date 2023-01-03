@@ -36,9 +36,11 @@
             <option value="$PROJECT_DIR$/Topics/Boxing and unboxing/Safe converting" />
             <option value="$PROJECT_DIR$/Topics/Boxing and unboxing/Theory" />
             <option value="$PROJECT_DIR$/Topics/Generics and Object/Boxes are not just objects" />
+            <option value="$PROJECT_DIR$/Topics/Generics and Object/Correct the usage of non-generic class" />
             <option value="$PROJECT_DIR$/Topics/Generics and Object/Initialize an object of a generic class" />
             <option value="$PROJECT_DIR$/Topics/Generics and Object/Theory" />
             <option value="$PROJECT_DIR$/Topics/Generics and Object/What is a type" />
+            <option value="$PROJECT_DIR$/Topics/Generics and Object/What is wrong" />
             <option value="$PROJECT_DIR$/Topics/Interface/Compact strings with AsciiCharSequence" />
             <option value="$PROJECT_DIR$/Topics/Interface/Mutable geometric shapes" />
             <option value="$PROJECT_DIR$/Topics/Interface/Properties of methods" />
@@ -72,6 +74,10 @@
             <option value="$PROJECT_DIR$/Topics/Relational operators/Job offer" />
             <option value="$PROJECT_DIR$/Topics/Relational operators/Possible values of a variable" />
             <option value="$PROJECT_DIR$/Topics/Relational operators/Theory" />
+            <option value="$PROJECT_DIR$/Topics/The Collections Framework overview/Creating instances" />
+            <option value="$PROJECT_DIR$/Topics/The Collections Framework overview/Squares list" />
+            <option value="$PROJECT_DIR$/Topics/The Collections Framework overview/Supported collections" />
+            <option value="$PROJECT_DIR$/Topics/The Collections Framework overview/Theory" />
             <option value="$PROJECT_DIR$/Topics/The keyword super/Bank account" />
             <option value="$PROJECT_DIR$/Topics/The keyword super/Employees" />
             <option value="$PROJECT_DIR$/Topics/The keyword super/Fix the non-compiled hierarchy" />
