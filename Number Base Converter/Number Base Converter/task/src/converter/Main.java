@@ -18,7 +18,7 @@ public class Main {
                     System.out.print("Enter target base: ");
                     int targetNumberBase = scanner.nextInt();
                     scanner.nextLine();
-                    System.out.println("Conversion result: " + convertDecNumber(decimalNumber, targetNumberBase));
+                    System.out.println("Conversion result: " + convertFromDecimalNumber(decimalNumber, targetNumberBase));
                 }
                 case "/to" -> {
                     System.out.print("Enter source number: ");
@@ -35,7 +35,7 @@ public class Main {
         }
     }
 
-    public static String convertDecNumber(int numberToConvert, int targetNumberBase) {
+    public static String convertFromDecimalNumber(int numberToConvert, int targetNumberBase) {
         StringBuilder targetNumber = new StringBuilder();
         if (numberToConvert == 0 || targetNumberBase == 0) {
             return "0";
