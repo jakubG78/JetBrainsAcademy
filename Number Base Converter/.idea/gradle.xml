@@ -43,6 +43,12 @@
             <option value="$PROJECT_DIR$/Topics/Boxing and unboxing/Only true or false" />
             <option value="$PROJECT_DIR$/Topics/Boxing and unboxing/Safe converting" />
             <option value="$PROJECT_DIR$/Topics/Boxing and unboxing/Theory" />
+            <option value="$PROJECT_DIR$/Topics/Comparable/Addresses" />
+            <option value="$PROJECT_DIR$/Topics/Comparable/Implement Comparable" />
+            <option value="$PROJECT_DIR$/Topics/Comparable/Implement comparing by additional fields" />
+            <option value="$PROJECT_DIR$/Topics/Comparable/Rewrite compareTo method" />
+            <option value="$PROJECT_DIR$/Topics/Comparable/Rules" />
+            <option value="$PROJECT_DIR$/Topics/Comparable/Theory" />
             <option value="$PROJECT_DIR$/Topics/Generics and Object/Boxes are not just objects" />
             <option value="$PROJECT_DIR$/Topics/Generics and Object/Correct the usage of non-generic class" />
             <option value="$PROJECT_DIR$/Topics/Generics and Object/Initialize an object of a generic class" />
