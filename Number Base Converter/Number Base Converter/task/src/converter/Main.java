@@ -6,36 +6,36 @@ public class Main {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        boolean toQuit = false;
-        String inputCommand;
-        while (!toQuit) {
-            System.out.print("Do you want to convert /from decimal or /to decimal? (To quit type /exit) ");
-            inputCommand = scanner.nextLine();
-            switch (inputCommand) {
-                case "/from" -> {
-                    System.out.print("Enter number in decimal system: ");
-                    int decimalNumber = scanner.nextInt();
-                    System.out.print("Enter target base: ");
-                    int targetNumberBase = scanner.nextInt();
-                    scanner.nextLine();
-                    System.out.println("Conversion result: " + convertFromDecimalNumber(decimalNumber, targetNumberBase));
-                }
-                case "/to" -> {
-                    System.out.print("Enter source number: ");
-                    String sourceNumber = scanner.nextLine();
-                    System.out.print("Enter source base: ");
-                    int sourceNoBase = scanner.nextInt();
-                    scanner.nextLine();
-                    System.out.println("Conversion to decimal result: " + convertToDecimal(sourceNumber, sourceNoBase));
-                }
-                case "/exit" -> toQuit = true;
-                default -> System.out.println("Unknown command. Try again.");
+        while (true) {
+            System.out.print("Enter two numbers in format: {source base} {target base} (To quit type /exit) ");
+            String input = scanner.nextLine();
+            if (input.equals("/exit")) {
+                break;
             }
-            System.out.println();
+            input = input.trim();
+            String[] inputParts = input.split(" ");
+            int sourceBase = Integer.parseInt(inputParts[0]);
+            int targetBase = Integer.parseInt(inputParts[1]);
+            while(true){
+                System.out.printf("Enter number in base %d to convert to base %d (To go back type /back ) ", sourceBase, targetBase);
+                input = scanner.nextLine();
+                String result;
+                if(input.equals("/back")){
+                    System.out.println();
+                    break;
+                }
+                if(targetBase == 10) {
+                    result = Long.toString(convertToDecimal(input, sourceBase));
+                } else {
+                    long convertedToDecimal = convertToDecimal(input, sourceBase);
+                    result = convertFromDecimalNumber(convertedToDecimal, targetBase);
+                }
+                System.out.printf("Conversion result: %s\n\n", result);
+            }
         }
     }
 
-    public static String convertFromDecimalNumber(int numberToConvert, int targetNumberBase) {
+    public static String convertFromDecimalNumber(long numberToConvert, long targetNumberBase) {
         StringBuilder targetNumber = new StringBuilder();
         if (numberToConvert == 0 || targetNumberBase == 0) {
             return "0";
@@ -54,11 +54,11 @@ public class Main {
         return targetNumber.reverse().toString();
     }
 
-    public static int convertToDecimal(String sourceNumber, int sourceNoBase) {
-        return Integer.parseInt(sourceNumber, sourceNoBase);
+    public static long convertToDecimal(String sourceNumber, int sourceNoBase) {
+        return Long.parseLong(sourceNumber, sourceNoBase);
     }
 
-    private static char getDigitAboveNine(int rest) {
+    private static char getDigitAboveNine(long rest) {
         if (rest < 10) {
             return (char) (rest + '0');
         } else {
