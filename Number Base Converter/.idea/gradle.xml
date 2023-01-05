@@ -38,6 +38,10 @@
             <option value="$PROJECT_DIR$/Topics/ArrayList/Output the list's elements" />
             <option value="$PROJECT_DIR$/Topics/ArrayList/Powers of indexes" />
             <option value="$PROJECT_DIR$/Topics/ArrayList/Theory" />
+            <option value="$PROJECT_DIR$/Topics/BigInteger/An expression with large numbers" />
+            <option value="$PROJECT_DIR$/Topics/BigInteger/Comparing numbers" />
+            <option value="$PROJECT_DIR$/Topics/BigInteger/Theory" />
+            <option value="$PROJECT_DIR$/Topics/BigInteger/What can BigInteger store" />
             <option value="$PROJECT_DIR$/Topics/Boxing and unboxing/Autoboxing int" />
             <option value="$PROJECT_DIR$/Topics/Boxing and unboxing/Initializing long value" />
             <option value="$PROJECT_DIR$/Topics/Boxing and unboxing/Only true or false" />
@@ -45,7 +49,10 @@
             <option value="$PROJECT_DIR$/Topics/Boxing and unboxing/Theory" />
             <option value="$PROJECT_DIR$/Topics/Comparable/Addresses" />
             <option value="$PROJECT_DIR$/Topics/Comparable/Implement Comparable" />
+            <option value="$PROJECT_DIR$/Topics/Comparable/Implement compareTo method" />
             <option value="$PROJECT_DIR$/Topics/Comparable/Implement comparing by additional fields" />
+            <option value="$PROJECT_DIR$/Topics/Comparable/Leaderboard" />
+            <option value="$PROJECT_DIR$/Topics/Comparable/Ratings" />
             <option value="$PROJECT_DIR$/Topics/Comparable/Rewrite compareTo method" />
             <option value="$PROJECT_DIR$/Topics/Comparable/Rules" />
             <option value="$PROJECT_DIR$/Topics/Comparable/Theory" />

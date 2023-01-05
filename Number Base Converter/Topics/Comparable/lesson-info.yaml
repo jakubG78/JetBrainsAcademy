@@ -5,3 +5,6 @@ content:
 - Implement Comparable
 - Rewrite compareTo method
 - Implement comparing by additional fields
+- Implement compareTo method
+- Ratings
+- Leaderboard

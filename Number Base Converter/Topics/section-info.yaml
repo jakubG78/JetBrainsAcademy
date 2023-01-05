@@ -13,3 +13,4 @@ content:
 - ArrayList
 - The List interface
 - Comparable
+- BigInteger
