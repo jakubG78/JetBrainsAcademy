@@ -14,3 +14,4 @@ content:
 - The List interface
 - Comparable
 - BigInteger
+- BigDecimal
