@@ -65,4 +65,12 @@ public class Main {
             return (char) ('A' + rest - 10);
         }
     }
+
+    private int dispatchDigitAboveNine(char symbol) {
+        if (symbol >= '0' && symbol <= '9') {
+            return symbol - '0';
+        } else {
+            return 10 + symbol - 'a';
+        }
+    }
 }
