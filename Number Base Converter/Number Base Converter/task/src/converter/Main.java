@@ -1,76 +1,56 @@
 package converter;
 
+import java.math.BigInteger;
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Main {
+    private static final String DIGITS = "0123456789abcdefghijklmnopqrstuvwxyz";
 
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        final var scanner = new Scanner(System.in);
+
         while (true) {
             System.out.print("Enter two numbers in format: {source base} {target base} (To quit type /exit) ");
-            String input = scanner.nextLine();
-            if (input.equals("/exit")) {
-                break;
+            final var params = scanner.nextLine().split(" ");
+            if ("/exit".equalsIgnoreCase(params[0])) {
+                return;
             }
-            input = input.trim();
-            String[] inputParts = input.split(" ");
-            int sourceBase = Integer.parseInt(inputParts[0]);
-            int targetBase = Integer.parseInt(inputParts[1]);
-            while(true){
-                System.out.printf("Enter number in base %d to convert to base %d (To go back type /back ) ", sourceBase, targetBase);
-                input = scanner.nextLine();
-                String result;
-                if(input.equals("/back")){
-                    System.out.println();
+            final var base = Arrays.stream(params).mapToInt(Integer::parseInt).toArray();
+            while (true) {
+                System.out.printf("Enter number in base %d to convert to base %d (To go back type /back) ", base[0], base[1]);
+                final var number = scanner.nextLine();
+                if ("/back".equalsIgnoreCase(number)) {
                     break;
                 }
-                if(targetBase == 10) {
-                    result = Long.toString(convertToDecimal(input, sourceBase));
-                } else {
-                    long convertedToDecimal = convertToDecimal(input, sourceBase);
-                    result = convertFromDecimalNumber(convertedToDecimal, targetBase);
-                }
-                System.out.printf("Conversion result: %s\n\n", result);
+                System.out.println("Conversion result: " + fromToRadix(number, base[0], base[1]));
             }
         }
     }
 
-    public static String convertFromDecimalNumber(long numberToConvert, long targetNumberBase) {
-        StringBuilder targetNumber = new StringBuilder();
-        if (numberToConvert == 0 || targetNumberBase == 0) {
-            return "0";
+    public static String fromToRadix(String number, int sourceBase, int targetBase) {
+        final var dotIndex = number.indexOf('.');
+        if (dotIndex == -1) {
+            return new BigInteger(number, sourceBase).toString(targetBase);
         }
-        while (numberToConvert > 0) {
+        final var sourceWhole = number.substring(0, dotIndex);
+        final var sourceFraction = number.substring(1 + dotIndex);
+        final var targetWhole = new BigInteger(sourceWhole, sourceBase).toString(targetBase);
+        var decimalFraction = 0.0;
+        var divider = (double) sourceBase;
 
-            if (targetNumberBase == 1) {
-                targetNumber.append(1);
-                numberToConvert--;
-            } else {
-                targetNumber.append(getDigitAboveNine(numberToConvert % targetNumberBase));
-                numberToConvert = numberToConvert / targetNumberBase;
-            }
-
+        for (final var digit : sourceFraction.toCharArray()) {
+            decimalFraction += DIGITS.indexOf(digit) / divider;
+            divider *= sourceBase;
         }
-        return targetNumber.reverse().toString();
-    }
-
-    public static long convertToDecimal(String sourceNumber, int sourceNoBase) {
-        return Long.parseLong(sourceNumber, sourceNoBase);
-    }
-
-    private static char getDigitAboveNine(long rest) {
-        if (rest < 10) {
-            return (char) (rest + '0');
-        } else {
-            return (char) ('A' + rest - 10);
+        final var targetFraction = new StringBuilder();
+        for (int i = 5; i > 0; --i) {
+            decimalFraction *= targetBase;
+            final var index = (int) decimalFraction;
+            targetFraction.append(DIGITS.charAt(index));
+            decimalFraction -= index;
         }
-    }
 
-    private int dispatchDigitAboveNine(char symbol) {
-        if (symbol >= '0' && symbol <= '9') {
-            return symbol - '0';
-        } else {
-            return 10 + symbol - 'a';
-        }
+        return targetWhole + "." + targetFraction;
     }
 }
