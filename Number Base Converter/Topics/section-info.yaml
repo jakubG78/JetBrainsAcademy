@@ -15,3 +15,4 @@ content:
 - Comparable
 - BigInteger
 - BigDecimal
+- Default methods
