@@ -3,3 +3,5 @@ content:
 - Floating-point types
 - What are collections
 - Lambda expressions
+- Method references
+- Functional interfaces
