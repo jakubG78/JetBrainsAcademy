@@ -26,9 +26,12 @@
             <option value="$PROJECT_DIR$/Topics/Lambda expressions/Theory" />
             <option value="$PROJECT_DIR$/Topics/Method references/Ascending and descending sorting" />
             <option value="$PROJECT_DIR$/Topics/Method references/Theory" />
+            <option value="$PROJECT_DIR$/Topics/Optional/A suitable method" />
+            <option value="$PROJECT_DIR$/Topics/Optional/Avoiding exceptions" />
             <option value="$PROJECT_DIR$/Topics/Optional/Check an Optional value" />
             <option value="$PROJECT_DIR$/Topics/Optional/Create an Optional value" />
             <option value="$PROJECT_DIR$/Topics/Optional/Sum up optional values" />
+            <option value="$PROJECT_DIR$/Topics/Optional/The address book" />
             <option value="$PROJECT_DIR$/Topics/Optional/Theory" />
             <option value="$PROJECT_DIR$/Topics/Optional/What is Optional" />
             <option value="$PROJECT_DIR$/Topics/Random/Choose a correct invocation" />
