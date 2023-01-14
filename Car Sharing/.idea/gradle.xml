@@ -10,6 +10,11 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/Topics/BigInteger/An expression with large numbers" />
+            <option value="$PROJECT_DIR$/Topics/BigInteger/Comparing numbers" />
+            <option value="$PROJECT_DIR$/Topics/BigInteger/Double factorial" />
+            <option value="$PROJECT_DIR$/Topics/BigInteger/Theory" />
+            <option value="$PROJECT_DIR$/Topics/BigInteger/What can BigInteger store" />
             <option value="$PROJECT_DIR$/Topics/Floating-point types/Celsius to Fahrenheit" />
             <option value="$PROJECT_DIR$/Topics/Floating-point types/Determine the result" />
             <option value="$PROJECT_DIR$/Topics/Floating-point types/Distance" />
