@@ -10,3 +10,4 @@ content:
 - Optional
 - The Set interface
 - BigInteger
+- Comparator
