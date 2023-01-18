@@ -11,3 +11,4 @@ content:
 - The Set interface
 - BigInteger
 - Comparator
+- Functional data processing with streams
