@@ -12,3 +12,4 @@ content:
 - BigInteger
 - Comparator
 - Functional data processing with streams
+- Reduction methods
