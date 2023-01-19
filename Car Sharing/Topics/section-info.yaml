@@ -13,3 +13,4 @@ content:
 - Comparator
 - Functional data processing with streams
 - Reduction methods
+- Collectors
