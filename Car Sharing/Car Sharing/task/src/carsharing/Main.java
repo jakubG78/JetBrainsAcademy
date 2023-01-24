@@ -1,6 +1,5 @@
 package carsharing;
 
-import com.beust.jcommander.JCommander;
 import org.h2.jdbc.JdbcSQLSyntaxErrorException;
 
 import java.sql.Connection;
@@ -11,11 +10,9 @@ public class Main {
     static final String JDBC_DRIVER = "org.h2.Driver";
 
     public static void main(String[] args) throws SQLException {
-        Args argv = new Args();
-        JCommander commander = JCommander.newBuilder().addObject(argv).build();
         try {
             Class.forName(JDBC_DRIVER);
-            String filePath = "./src/carsharing/db/" + (argv.dbName == null ? "carsharing" : argv.dbName);
+            String filePath = "./src/carsharing/db/carsharing";
             Connection connection = DriverManager.getConnection("jdbc:h2:file:" + filePath);
             connection.setAutoCommit(true);
             CommandLineMenu.printMainMenu(connection);

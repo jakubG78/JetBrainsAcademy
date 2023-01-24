@@ -1,0 +1,18 @@
+2023-01-24 20:25:59 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientConnectionException: Baza danych jest otwarta w trybie wyłączności, nie można otworzyć dodatkowych połączeń
+The database is open in exclusive mode; can not open additional connections [90135-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:622)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.get(DbException.java:181)
+	at org.h2.message.DbException.get(DbException.java:170)
+	at org.h2.engine.Session.checkSuspended(Session.java:1369)
+	at org.h2.engine.Session.transitionToState(Session.java:1361)
+	at org.h2.engine.Session.waitIfExclusiveModeEnabled(Session.java:1633)
+	at org.h2.command.Command.executeQuery(Command.java:186)
+	at org.h2.jdbc.JdbcStatement.executeQuery(JdbcStatement.java:85)
+	at carsharing.database.CompanyDao.getAll(CompanyDao.java:54)
+	at carsharing.CommandLineMenu.printCompanyChooseMenu(CommandLineMenu.java:23)
+	at carsharing.CommandLineMenu.printManagerSubMenu(CommandLineMenu.java:46)
+	at carsharing.CommandLineMenu.printMainMenu(CommandLineMenu.java:72)
+	at carsharing.Main.main(Main.java:21)

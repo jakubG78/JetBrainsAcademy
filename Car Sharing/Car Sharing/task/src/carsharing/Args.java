@@ -1,10 +1,8 @@
 package carsharing;
 
-import com.beust.jcommander.Parameter;
-
 public class Args {
 
-    @Parameter(
+/*    @Parameter(
             names = "-databaseFileName",
             description = "Database name",
             required = false
@@ -13,5 +11,5 @@ public class Args {
 
     public String getDbName() {
         return dbName;
-    }
+    }*/
 }
