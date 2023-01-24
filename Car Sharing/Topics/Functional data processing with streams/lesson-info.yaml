@@ -4,3 +4,5 @@ content:
 - Long ranges
 - Terminal operations with streams
 - Finding max and min elements
+- Create a stream from a list
+- Count passwords
