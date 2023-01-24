@@ -347,6 +347,15 @@ files:
         }
     }
   learner_created: false
+- name: src/carsharing/database/Dao.java
+  visible: true
+  learner_created: true
+- name: src/carsharing/database/CompanyDao.java
+  visible: true
+  learner_created: true
+- name: src/carsharing/database/Company.java
+  visible: true
+  learner_created: true
 feedback_link: https://hyperskill.org/learn/step/11502#comment
 status: Unchecked
 record: -1

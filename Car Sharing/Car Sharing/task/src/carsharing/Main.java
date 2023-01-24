@@ -12,8 +12,8 @@ public class Main {
         Connection connection = null;
         Statement statement = null;
         String table = "CREATE TABLE COMPANY" +
-                "(ID INT," +
-                "NAME VARCHAR(255))";
+                "(ID INT PRIMARY KEY AUTO_INCREMENT," +
+                "NAME VARCHAR(255) NOT NULL UNIQUE)";
 
         try {
             Class.forName(JDBC_DRIVER);
