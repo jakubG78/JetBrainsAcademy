@@ -26,6 +26,7 @@
     <orderEntry type="library" name="Gradle: commons-codec:commons-codec:1.11" level="project" />
     <orderEntry type="library" name="Gradle: org.assertj:assertj-core:3.17.2" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.easytesting:fest-util:1.2.5" level="project" />
+    <orderEntry type="library" name="beust.jcommander" level="project" />
   </component>
   <component name="TestModuleProperties" production-module="Car_Sharing.Car_Sharing-task-build-tmp.main" />
 </module>
