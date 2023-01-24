@@ -1,3 +1,4 @@
+import java.util.Comparator;
 import java.util.List;
 
 class User {
@@ -26,6 +27,8 @@ class User {
 class Utils {
 
     public static void sortUsers(List<User> users) {
-        // your code here
+        users.sort(Comparator.comparing(User::getName)
+                .thenComparing(User::getAge, Comparator.reverseOrder())
+        );
     }
 }
