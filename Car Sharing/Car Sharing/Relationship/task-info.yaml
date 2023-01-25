@@ -557,6 +557,270 @@ files:
         }
     }
   learner_created: false
+- name: src/carsharing/database/CompanyDao.java
+  visible: true
+  text: |
+    package carsharing.database;
+
+    import java.sql.Connection;
+    import java.sql.ResultSet;
+    import java.sql.SQLException;
+    import java.sql.Statement;
+    import java.util.ArrayList;
+    import java.util.List;
+    import java.util.Optional;
+
+    public class CompanyDao implements Dao<Company> {
+
+        private final String nameOfTable;
+        private final Connection databaseConnection;
+
+        public CompanyDao(String nameOfTable, Connection databaseConnection) {
+            this.nameOfTable = nameOfTable;
+            this.databaseConnection = databaseConnection;
+            String sqlCreateCompanyTable = "CREATE TABLE IF NOT EXISTS " + nameOfTable + " " +
+                    "(ID INTEGER NOT NULL AUTO_INCREMENT," +
+                    "NAME VARCHAR(255) UNIQUE NOT NULL," +
+                    "PRIMARY KEY ( ID ))";
+            try {
+                Statement statement = databaseConnection.createStatement();
+                statement.executeUpdate(sqlCreateCompanyTable);
+                statement.close();
+            } catch (SQLException throwables) {
+                throwables.printStackTrace();
+            }
+        }
+
+        @Override
+        public Optional<Company> get(int id) {
+            Company searchedCompany = null;
+            try {
+                Statement sqlStatement = databaseConnection.createStatement();
+                String sqlQuery = String.format("SELECT * FROM %s WHERE ID=S%", nameOfTable, id);
+                ResultSet resultSet = sqlStatement.executeQuery(sqlQuery);
+                while (resultSet.next()) {
+                    searchedCompany = new Company(resultSet.getString("name"));
+                }
+            } catch (SQLException throwables) {
+                throwables.printStackTrace();
+            }
+            return Optional.ofNullable(searchedCompany);
+        }
+
+        @Override
+        public List<Company> getAll() {
+            List<Company> listOfCompanies = new ArrayList<>();
+            try {
+                Statement sqlStatement = databaseConnection.createStatement();
+                String sqlQuery = String.format("SELECT * FROM %s", nameOfTable);
+                ResultSet resultSet = sqlStatement.executeQuery(sqlQuery);
+                while (resultSet.next()) {
+                    listOfCompanies.add(new Company(resultSet.getInt("id"),
+                            resultSet.getString("name")));
+                }
+            } catch (SQLException throwables) {
+                throwables.printStackTrace();
+            }
+            return listOfCompanies;
+        }
+
+        @Override
+        public void save(Company company) {
+            try {
+                Statement sqlStatement = databaseConnection.createStatement();
+                String sqlQuery = String.format("INSERT INTO %s (name) VALUES (\'%s\')", nameOfTable, company.getName());
+                sqlStatement.execute(sqlQuery);
+            } catch (SQLException throwables) {
+                throwables.printStackTrace();
+            }
+        }
+
+        @Override
+        public void update(Company company, String[] params) {
+
+        }
+
+        @Override
+        public void delete(Company company) {
+
+        }
+
+        @Override
+        public void eraseById(Integer id) {
+
+        }
+
+        @Override
+        public void eraseByName(String name) {
+            try {
+                Statement sqlStatement = databaseConnection.createStatement();
+                String sqlQuery = String.format("DELETE FROM %s WHERE name='%s'", nameOfTable, name);
+                sqlStatement.execute(sqlQuery);
+            } catch (SQLException throwables) {
+                throwables.printStackTrace();
+            }
+        }
+    }
+  learner_created: true
+- name: src/carsharing/Args.java
+  visible: true
+  text: |-
+    package carsharing;
+
+    public class Args {
+
+    /*    @Parameter(
+                names = "-databaseFileName",
+                description = "Database name",
+                required = false
+        )
+        protected String dbName;
+
+        public String getDbName() {
+            return dbName;
+        }*/
+    }
+  learner_created: true
+- name: src/carsharing/database/Dao.java
+  visible: true
+  text: |
+    package carsharing.database;
+
+    import java.util.List;
+    import java.util.Optional;
+
+    public interface Dao<T> {
+
+        Optional<T> get(int id);
+
+        List<T> getAll();
+
+        void save(T t);
+
+        void update(T t, String[] params);
+
+        void delete(T t);
+
+        void eraseById(Integer id);
+
+        void eraseByName(String name);
+    }
+  learner_created: true
+- name: src/carsharing/database/Company.java
+  visible: true
+  text: |
+    package carsharing.database;
+
+    public class Company {
+
+        private Integer id;
+        private String name;
+
+        public Company(String name) {
+            this.name = name;
+        }
+
+        public Company(Integer id, String name) {
+            this.id = id;
+            this.name = name;
+        }
+
+        public Integer getId() {
+            return id;
+        }
+
+        public void setId(Integer id) {
+            this.id = id;
+        }
+
+        public String getName() {
+            return name;
+        }
+
+        public void setName(String name) {
+            this.name = name;
+        }
+    }
+  learner_created: true
+- name: src/carsharing/CommandLineMenu.java
+  visible: true
+  text: |
+    package carsharing;
+
+    import carsharing.database.Company;
+    import carsharing.database.CompanyDao;
+
+    import java.sql.Connection;
+    import java.util.List;
+    import java.util.Scanner;
+
+    public class CommandLineMenu {
+
+        private static final String LOG_IN_AS_A_MANAGER = "1. Log in as a manager";
+        private static final String EXIT_MENU = "0. Exit\n";
+        private static final String COMPANY_LIST_MENU = "1. Company list";
+        private static final String COMPANY_CREATE_MENU = "2. Create a company";
+        private static final String BACK_MENU = "0. Back\n";
+
+        private static final Scanner scanner = new Scanner(System.in);
+        private static CompanyDao companyDao;
+
+        private static void printManagerSubMenu() {
+            boolean back = false;
+            while (!back) {
+                System.out.println(COMPANY_LIST_MENU);
+                System.out.println(COMPANY_CREATE_MENU);
+                System.out.println(BACK_MENU);
+                String choice = scanner.nextLine();
+                switch (choice) {
+                    case "1":
+                        List<Company> companies = companyDao.getAll();
+                        if (companies.size() > 0) {
+                            System.out.println("Company list:");
+                            for (int i = 0; i < companies.size(); i++) {
+                                System.out.println((i + 1) + ". " + companies.get(i).getName());
+                            }
+                            System.out.println();
+                        } else {
+                            System.out.println("The company list is empty!\n");
+                        }
+                        break;
+                    case "2":
+                        System.out.println("Enter the company name:");
+                        String company_name = scanner.nextLine();
+                        companyDao.save(new Company(company_name));
+                        System.out.println("The company was created!\n");
+                        break;
+                    case "0":
+                        back = true;
+                        break;
+                    default:
+                        System.out.println("Such value is not supported");
+                }
+            }
+        }
+
+        public static void printMainMenu(Connection connection) {
+            companyDao = new CompanyDao("COMPANY", connection);
+            boolean exit = false;
+            while (!exit) {
+                System.out.println(LOG_IN_AS_A_MANAGER);
+                System.out.println(EXIT_MENU);
+                String choice = scanner.nextLine();
+                switch (choice) {
+                    case "1":
+                        printManagerSubMenu();
+                        break;
+                    case "0":
+                        exit = true;
+                        break;
+                    default:
+                        System.out.println("Such value is not supported");
+                }
+            }
+        }
+    }
+  learner_created: true
 feedback_link: https://hyperskill.org/learn/step/11503#comment
 status: Unchecked
 record: -1
