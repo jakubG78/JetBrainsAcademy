@@ -1,0 +1,24 @@
+type: choice
+is_multiple_choice: false
+options:
+- text: In the same block where local inner class was defined
+- text: Everywhere inside outer class
+- text: Only inside a local inner class
+- text: If you instantiate an outer class you can instantiate local inner class
+files:
+- name: src/Task.java
+  visible: true
+  text: |
+    // You can experiment here, it won’t be checked
+
+    public class Task {
+      public static void main(String[] args) {
+        // put your code here
+      }
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/11848#comment
+status: Solved
+record: -1
+custom_name: Who has the power to create ME?
+local_check: false
