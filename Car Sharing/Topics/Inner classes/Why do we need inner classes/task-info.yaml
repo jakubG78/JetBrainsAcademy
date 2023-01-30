@@ -1,11 +1,11 @@
 type: choice
 is_multiple_choice: true
 options:
+- text: To increase encapsulation
+- text: To organise your code
 - text: To help hiding static members inside the inner classes
 - text: Only an inner class provides access to protected fields and methods of an
     outer class
-- text: To organise your code
-- text: To increase encapsulation
 files:
 - name: src/Task.java
   visible: true
@@ -19,10 +19,11 @@ files:
     }
   learner_created: false
 feedback_link: https://hyperskill.org/learn/step/11507#comment
-status: Failed
-feedback:
-  message: Wrong solution
-  time: "Wed, 25 Jan 2023 19:56:41 UTC"
+status: Unchecked
 record: -1
+selected_options:
+- 0
+- 1
+- 2
 custom_name: Why do we need inner classes?
 local_check: false
