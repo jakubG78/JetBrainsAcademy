@@ -52,6 +52,16 @@
             <option value="$PROJECT_DIR$/Topics/Collectors/The product of squares" />
             <option value="$PROJECT_DIR$/Topics/Collectors/Theory" />
             <option value="$PROJECT_DIR$/Topics/Collectors/Сollect parameter" />
+            <option value="$PROJECT_DIR$/Topics/Comparable/Addresses" />
+            <option value="$PROJECT_DIR$/Topics/Comparable/Implement Comparable" />
+            <option value="$PROJECT_DIR$/Topics/Comparable/Implement compareTo method" />
+            <option value="$PROJECT_DIR$/Topics/Comparable/Implement comparing by additional fields" />
+            <option value="$PROJECT_DIR$/Topics/Comparable/Leaderboard" />
+            <option value="$PROJECT_DIR$/Topics/Comparable/Ratings" />
+            <option value="$PROJECT_DIR$/Topics/Comparable/Rewrite compareTo method" />
+            <option value="$PROJECT_DIR$/Topics/Comparable/Rules" />
+            <option value="$PROJECT_DIR$/Topics/Comparable/Theory" />
+            <option value="$PROJECT_DIR$/Topics/Comparable/Value class" />
             <option value="$PROJECT_DIR$/Topics/Comparator/Comparing numbers" />
             <option value="$PROJECT_DIR$/Topics/Comparator/Comparing values" />
             <option value="$PROJECT_DIR$/Topics/Comparator/Method name" />
@@ -83,6 +93,7 @@
             <option value="$PROJECT_DIR$/Topics/Functional interfaces/Ternary predicate" />
             <option value="$PROJECT_DIR$/Topics/Functional interfaces/The requirement" />
             <option value="$PROJECT_DIR$/Topics/Functional interfaces/Theory" />
+            <option value="$PROJECT_DIR$/Topics/Inner classes/Improve your vehicle" />
             <option value="$PROJECT_DIR$/Topics/Inner classes/Nested or inner" />
             <option value="$PROJECT_DIR$/Topics/Inner classes/New Inner class" />
             <option value="$PROJECT_DIR$/Topics/Inner classes/Pumpkin and candle" />
