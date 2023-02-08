@@ -42,6 +42,7 @@
             <option value="$PROJECT_DIR$/Topics/BigInteger/An expression with large numbers" />
             <option value="$PROJECT_DIR$/Topics/BigInteger/Comparing numbers" />
             <option value="$PROJECT_DIR$/Topics/BigInteger/Double factorial" />
+            <option value="$PROJECT_DIR$/Topics/BigInteger/The smallest value" />
             <option value="$PROJECT_DIR$/Topics/BigInteger/Theory" />
             <option value="$PROJECT_DIR$/Topics/BigInteger/What can BigInteger store" />
             <option value="$PROJECT_DIR$/Topics/Collectors/ASCII Art" />
@@ -72,6 +73,11 @@
             <option value="$PROJECT_DIR$/Topics/Comparator/Reverse sorting" />
             <option value="$PROJECT_DIR$/Topics/Comparator/Sort users" />
             <option value="$PROJECT_DIR$/Topics/Comparator/Theory" />
+            <option value="$PROJECT_DIR$/Topics/Enums in Java/Currencies" />
+            <option value="$PROJECT_DIR$/Topics/Enums in Java/Enum with two constants" />
+            <option value="$PROJECT_DIR$/Topics/Enums in Java/Hidden enumeration" />
+            <option value="$PROJECT_DIR$/Topics/Enums in Java/Reasons to use enum" />
+            <option value="$PROJECT_DIR$/Topics/Enums in Java/Theory" />
             <option value="$PROJECT_DIR$/Topics/Floating-point types/Celsius to Fahrenheit" />
             <option value="$PROJECT_DIR$/Topics/Floating-point types/Determine the result" />
             <option value="$PROJECT_DIR$/Topics/Floating-point types/Distance" />
