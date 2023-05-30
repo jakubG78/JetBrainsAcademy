@@ -1,0 +1,32 @@
+type: code
+files:
+- name: src/Main.java
+  visible: true
+  text: |-
+    import java.util.Scanner;
+
+    class Main {
+        public static void main(String[] args) {
+            Scanner scanner = new Scanner(System.in);
+            // start coding here
+        }
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/3820#comment
+status: Failed
+feedback:
+  message: |+
+    Failed test #1 of 5. Time limit exceeded
+
+    This is a sample test from the problem statement!
+
+    Test input:
+    234 8
+    465 453 981 463 1235 871 475 981
+    Correct output:
+    Will not crash
+
+    Your code output:
+
+  time: "Wed, 15 Mar 2023 21:04:38 UTC"
+record: -1

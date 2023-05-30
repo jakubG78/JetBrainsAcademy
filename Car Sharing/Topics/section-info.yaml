@@ -25,3 +25,5 @@ content:
 - Types and variables
 - Iterating over arrays
 - Conditional statement
+- Hiding and overriding
+- Hierarchy of exceptions
