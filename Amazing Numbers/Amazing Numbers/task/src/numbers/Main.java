@@ -7,50 +7,35 @@ public class Main {
         System.out.println("Enter a natural number:");
         Scanner scanner = new Scanner(System.in);
         int inputIntegerNumber = scanner.nextInt();
-        int isBuzzNumber = 0;
         while (true) {
             if (inputIntegerNumber <= 0) {
                 System.out.println("This number is not natural!");
                 break;
             }
-            printEvenOrOdd(inputIntegerNumber);
-            if (inputIntegerNumber % 7 == 0) {
-                isBuzzNumber += 1;
-            }
-            if (inputIntegerNumber % 10 == 7) {
-                isBuzzNumber += 2;
-            }
-
-            if (isBuzzNumber != 0) {
-                System.out.println("It is a Buzz number.");
-            } else {
-                System.out.println("It is not a Buzz number.");
-            }
-            System.out.println("Explanation:");
-            switch (isBuzzNumber) {
-                case 1:
-                    System.out.printf("%d is divisible by 7.", inputIntegerNumber);
-                    break;
-                case 2:
-                    System.out.printf("%d ends with 7.", inputIntegerNumber);
-                    break;
-                case 3:
-                    System.out.printf("%d is divisible by 7 and ends with 7.", inputIntegerNumber);
-                    break;
-                default:
-                    System.out.printf("%d is neither divisible by 7 nor does it end with 7.", inputIntegerNumber);
-                    break;
-            }
+            System.out.printf("Properties of %d\n", inputIntegerNumber);
+            System.out.println("        even: " + isEvenNumber(inputIntegerNumber));
+            System.out.println("        odd: " + !isEvenNumber(inputIntegerNumber));
+            System.out.println("        buzz: " + isBuzzNumber(inputIntegerNumber));
+            System.out.println("        duck: " + isDuckNumber(inputIntegerNumber));
             break;
         }
     }
 
-    private static void printEvenOrOdd(int inputIntegerNumber) {
-        if (inputIntegerNumber % 2 == 0) {
-            System.out.println("This number is Even.");
-        } else {
-            System.out.println("This number is Odd.");
-        }
+    private static boolean isEvenNumber(int inputIntegerNumber) {
+        return inputIntegerNumber % 2 == 0;
     }
 
+    private static boolean isBuzzNumber(int inputIntegerNumber) {
+        return inputIntegerNumber % 7 == 0 || inputIntegerNumber % 10 == 7;
+    }
+
+    private static boolean isDuckNumber(int inputIntegerNumber) {
+        while (inputIntegerNumber != 0) {
+            if ((inputIntegerNumber % 10) == 0) {
+                return true;
+            }
+            inputIntegerNumber = inputIntegerNumber / 10;
+        }
+        return false;
+    }
 }
