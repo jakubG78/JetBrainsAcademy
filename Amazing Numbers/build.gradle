@@ -17,7 +17,7 @@ subprojects {
     }
 
     dependencies {
-        testImplementation 'com.github.hyperskill:hs-test:release-SNAPSHOT'
+        testImplementation 'com.github.hyperskill:hs-test:master-SNAPSHOT'
     }
 
     configurations.all {
