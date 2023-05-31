@@ -383,17 +383,8 @@ files:
     }
   learner_created: false
 feedback_link: https://hyperskill.org/projects/184/stages/933/implement#comment
-status: Failed
+status: Solved
 feedback:
-  message: |-
-    Wrong answer in test #1
-
-    Expected that the output contains &quot;Welcome to Amazing Numbers!&quot;.
-
-    Please find below the output of your program during this failed test.
-
-    ---
-
-    Enter a natural number:
-  time: "Tue, 30 May 2023 17:53:08 UTC"
+  message: Congratulations!
+  time: "Wed, 31 May 2023 17:56:00 UTC"
 record: -1
