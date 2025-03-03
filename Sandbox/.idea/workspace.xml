@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5809a87e-3663-4eb3-bb2a-36f004a55434" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../Amazing Numbers/.gradle/8.0/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../Amazing Numbers/.gradle/8.0/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Amazing Numbers/.gradle/8.0/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Amazing Numbers/.gradle/8.0/checksums/md5-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Amazing Numbers/.gradle/8.0/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Amazing Numbers/.gradle/8.0/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Amazing Numbers/.gradle/8.0/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Amazing Numbers/.gradle/8.0/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Amazing Numbers/.gradle/8.0/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../Amazing Numbers/.gradle/8.0/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Amazing Numbers/.gradle/8.0/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Amazing Numbers/.gradle/8.0/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Amazing Numbers/.gradle/8.0/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../Amazing Numbers/.gradle/8.0/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Amazing Numbers/.gradle/8.0/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Amazing Numbers/.gradle/8.0/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Amazing Numbers/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../Amazing Numbers/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Amazing Numbers/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../Amazing Numbers/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Amazing Numbers/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Amazing Numbers/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/../Amazing Numbers/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Amazing Numbers/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Amazing Numbers/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Amazing Numbers/.idea/frameworkLessonHistory/storage.storageData" beforeDir="false" afterPath="$PROJECT_DIR$/../Amazing Numbers/.idea/frameworkLessonHistory/storage.storageData" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Amazing Numbers/.idea/frameworkLessonHistory/storage.storageRecordIndex" beforeDir="false" afterPath="$PROJECT_DIR$/../Amazing Numbers/.idea/frameworkLessonHistory/storage.storageRecordIndex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Amazing Numbers/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Amazing Numbers/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Amazing Numbers/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Amazing Numbers/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Amazing Numbers/.idea/libraries/Gradle__com_github_hyperskill_hs_test_master_SNAPSHOT.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Amazing Numbers/.idea/libraries/Gradle__com_github_hyperskill_hs_test_release_SNAPSHOT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Amazing Numbers/.idea/libraries/Gradle__com_github_hyperskill_hs_test_release_SNAPSHOT.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Amazing Numbers/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Amazing Numbers/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Amazing Numbers/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Amazing Numbers/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Amazing Numbers/.idea/modules/Amazing Numbers/task/Amazing_Numbers.Amazing_Numbers-task.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Amazing Numbers/.idea/modules/Amazing Numbers/task/Amazing_Numbers.Amazing_Numbers-task.test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Amazing Numbers/.idea/modules/Amazing Numbers/task/build/classes/java/Amazing_Numbers.Amazing_Numbers-task-build-classes-java.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Amazing Numbers/.idea/modules/Amazing Numbers/task/build/classes/java/Amazing_Numbers.Amazing_Numbers-task-build-classes-java.test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Amazing Numbers/.idea/modules/Amazing Numbers/task/build/generated/sources/annotationProcessor/java/Amazing_Numbers.Amazing_Numbers-task-build-generated-sources-annotationProcessor-java.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Amazing Numbers/.idea/modules/Amazing Numbers/task/build/generated/sources/annotationProcessor/java/Amazing_Numbers.Amazing_Numbers-task-build-generated-sources-annotationProcessor-java.test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Amazing Numbers/.idea/modules/Amazing Numbers/task/build/generated/sources/headers/java/Amazing_Numbers.Amazing_Numbers-task-build-generated-sources-headers-java.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Amazing Numbers/.idea/modules/Amazing Numbers/task/build/generated/sources/headers/java/Amazing_Numbers.Amazing_Numbers-task-build-generated-sources-headers-java.test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Amazing Numbers/.idea/modules/Amazing Numbers/task/build/reports/tests/Amazing_Numbers.Amazing_Numbers-task-build-reports-tests.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Amazing Numbers/.idea/modules/Amazing Numbers/task/build/reports/tests/Amazing_Numbers.Amazing_Numbers-task-build-reports-tests.test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Amazing Numbers/.idea/modules/Amazing Numbers/task/build/test-results/Amazing_Numbers.Amazing_Numbers-task-build-test-results.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Amazing Numbers/.idea/modules/Amazing Numbers/task/build/test-results/Amazing_Numbers.Amazing_Numbers-task-build-test-results.test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Amazing Numbers/.idea/modules/Amazing Numbers/task/build/tmp/Amazing_Numbers.Amazing_Numbers-task-build-tmp.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Amazing Numbers/.idea/modules/Amazing Numbers/task/build/tmp/Amazing_Numbers.Amazing_Numbers-task-build-tmp.test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Amazing Numbers/.idea/modules/util/Amazing_Numbers.util.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Amazing Numbers/.idea/modules/util/Amazing_Numbers.util.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Amazing Numbers/.idea/modules/util/Amazing_Numbers.util.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Amazing Numbers/.idea/modules/util/Amazing_Numbers.util.test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Amazing Numbers/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Amazing Numbers/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Amazing Numbers/Amazing Numbers/Buzz numbers/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Amazing Numbers/Amazing Numbers/Buzz numbers/task-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Amazing Numbers/Amazing Numbers/Buzz numbers/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Amazing Numbers/Amazing Numbers/Buzz numbers/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Amazing Numbers/Amazing Numbers/Duck numbers/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Amazing Numbers/Amazing Numbers/Duck numbers/task-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Amazing Numbers/Amazing Numbers/Duck numbers/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Amazing Numbers/Amazing Numbers/Duck numbers/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Amazing Numbers/Amazing Numbers/Duck numbers/task.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Amazing Numbers/Amazing Numbers/Duck numbers/task.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Amazing Numbers/Amazing Numbers/Gapful numbers/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Amazing Numbers/Amazing Numbers/Gapful numbers/task-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Amazing Numbers/Amazing Numbers/Gapful numbers/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Amazing Numbers/Amazing Numbers/Gapful numbers/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Amazing Numbers/Amazing Numbers/Happy and Sad numbers/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Amazing Numbers/Amazing Numbers/Happy and Sad numbers/task-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Amazing Numbers/Amazing Numbers/Happy and Sad numbers/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Amazing Numbers/Amazing Numbers/Happy and Sad numbers/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Amazing Numbers/Amazing Numbers/Jumping numbers/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Amazing Numbers/Amazing Numbers/Jumping numbers/task-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Amazing Numbers/Amazing Numbers/Jumping numbers/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Amazing Numbers/Amazing Numbers/Jumping numbers/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Amazing Numbers/Amazing Numbers/Palindromic numbers/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Amazing Numbers/Amazing Numbers/Palindromic numbers/task-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Amazing Numbers/Amazing Numbers/Palindromic numbers/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Amazing Numbers/Amazing Numbers/Palindromic numbers/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Amazing Numbers/Amazing Numbers/Spy numbers/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Amazing Numbers/Amazing Numbers/Spy numbers/task-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Amazing Numbers/Amazing Numbers/Spy numbers/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Amazing Numbers/Amazing Numbers/Spy numbers/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Amazing Numbers/Amazing Numbers/Spy numbers/task.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Amazing Numbers/Amazing Numbers/Spy numbers/task.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Amazing Numbers/Amazing Numbers/Sunny and Square numbers/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Amazing Numbers/Amazing Numbers/Sunny and Square numbers/task-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Amazing Numbers/Amazing Numbers/Sunny and Square numbers/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Amazing Numbers/Amazing Numbers/Sunny and Square numbers/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Amazing Numbers/Amazing Numbers/Sunny and Square numbers/task.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Amazing Numbers/Amazing Numbers/Sunny and Square numbers/task.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Amazing Numbers/Amazing Numbers/lesson-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Amazing Numbers/Amazing Numbers/lesson-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Amazing Numbers/Amazing Numbers/task/build/classes/java/main/numbers/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Amazing Numbers/Amazing Numbers/task/build/classes/java/main/numbers/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Amazing Numbers/Amazing Numbers/task/build/classes/java/test/NumberProperty.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Amazing Numbers/Amazing Numbers/task/build/classes/java/test/NumberProperty.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Amazing Numbers/Amazing Numbers/task/build/classes/java/test/NumbersTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Amazing Numbers/Amazing Numbers/task/build/classes/java/test/NumbersTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Amazing Numbers/Amazing Numbers/task/build/reports/tests/test/classes/NumbersTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Amazing Numbers/Amazing Numbers/task/build/reports/tests/test/classes/NumbersTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Amazing Numbers/Amazing Numbers/task/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Amazing Numbers/Amazing Numbers/task/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Amazing Numbers/Amazing Numbers/task/build/reports/tests/test/packages/default-package.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Amazing Numbers/Amazing Numbers/task/build/reports/tests/test/packages/default-package.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Amazing Numbers/Amazing Numbers/task/build/test-results/test/TEST-NumbersTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Amazing Numbers/Amazing Numbers/task/build/test-results/test/TEST-NumbersTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Amazing Numbers/Amazing Numbers/task/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Amazing Numbers/Amazing Numbers/task/build/test-results/test/binary/output.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Amazing Numbers/Amazing Numbers/task/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/../Amazing Numbers/Amazing Numbers/task/build/test-results/test/binary/output.bin.idx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Amazing Numbers/Amazing Numbers/task/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Amazing Numbers/Amazing Numbers/task/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Amazing Numbers/Amazing Numbers/task/build/tmp/compileJava/compileTransaction/stash-dir/Main.class.uniqueId0" beforeDir="false" afterPath="$PROJECT_DIR$/../Amazing Numbers/Amazing Numbers/task/build/tmp/compileJava/compileTransaction/stash-dir/Main.class.uniqueId0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Amazing Numbers/Amazing Numbers/task/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Amazing Numbers/Amazing Numbers/task/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Amazing Numbers/Amazing Numbers/task/build/tmp/compileTestJava/compileTransaction/stash-dir/NumberProperty.class.uniqueId0" beforeDir="false" afterPath="$PROJECT_DIR$/../Amazing Numbers/Amazing Numbers/task/build/tmp/compileTestJava/compileTransaction/stash-dir/NumberProperty.class.uniqueId0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Amazing Numbers/Amazing Numbers/task/build/tmp/compileTestJava/compileTransaction/stash-dir/NumbersTest.class.uniqueId2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Amazing Numbers/Amazing Numbers/task/build/tmp/compileTestJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Amazing Numbers/Amazing Numbers/task/build/tmp/compileTestJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Amazing Numbers/Amazing Numbers/task/src/numbers/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Amazing Numbers/Amazing Numbers/task/src/numbers/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Amazing Numbers/Amazing Numbers/task/test/NumberProperty.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Amazing Numbers/Amazing Numbers/task/test/NumberProperty.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Amazing Numbers/Amazing Numbers/task/test/NumbersTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Amazing Numbers/Amazing Numbers/task/test/NumbersTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Amazing Numbers/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../Amazing Numbers/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Amazing Numbers/course-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Amazing Numbers/course-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Amazing Numbers/course-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Amazing Numbers/course-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Amazing Numbers/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../Amazing Numbers/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Car Sharing/.gradle/7.3.3/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../Car Sharing/.gradle/7.3.3/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Car Sharing/.gradle/7.3.3/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Car Sharing/.gradle/7.3.3/checksums/md5-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Car Sharing/.gradle/7.3.3/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Car Sharing/.gradle/7.3.3/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Car Sharing/.gradle/7.3.3/dependencies-accessors/dependencies-accessors.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../Car Sharing/.gradle/7.3.3/dependencies-accessors/dependencies-accessors.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Car Sharing/.gradle/7.3.3/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../Car Sharing/.gradle/7.3.3/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Car Sharing/.gradle/7.3.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../Car Sharing/.gradle/7.3.3/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Car Sharing/.gradle/7.5.1/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../Car Sharing/.gradle/7.5.1/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Car Sharing/.gradle/7.5.1/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Car Sharing/.gradle/7.5.1/checksums/md5-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Car Sharing/.gradle/7.5.1/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Car Sharing/.gradle/7.5.1/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Car Sharing/.gradle/7.5.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Car Sharing/.gradle/7.5.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Car Sharing/.gradle/7.5.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../Car Sharing/.gradle/7.5.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Car Sharing/.gradle/7.5.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Car Sharing/.gradle/7.5.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Car Sharing/.gradle/7.5.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../Car Sharing/.gradle/7.5.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Car Sharing/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../Car Sharing/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Car Sharing/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../Car Sharing/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Car Sharing/.idea/libraries/Gradle__com_github_hyperskill_hs_test_release_SNAPSHOT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Car Sharing/.idea/libraries/Gradle__com_github_hyperskill_hs_test_release_SNAPSHOT.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Car Sharing/.idea/libraries/Gradle__com_google_code_gson_gson_2_8_9.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Car Sharing/.idea/libraries/Gradle__com_google_code_gson_gson_2_8_9.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Car Sharing/.idea/libraries/Gradle__com_h2database_h2_1_4_200.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Car Sharing/.idea/libraries/Gradle__com_h2database_h2_1_4_200.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Car Sharing/.idea/libraries/Gradle__commons_codec_commons_codec_1_11.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Car Sharing/.idea/libraries/Gradle__commons_codec_commons_codec_1_11.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Car Sharing/.idea/libraries/Gradle__commons_logging_commons_logging_1_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Car Sharing/.idea/libraries/Gradle__commons_logging_commons_logging_1_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Car Sharing/.idea/libraries/Gradle__junit_junit_4_13_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Car Sharing/.idea/libraries/Gradle__junit_junit_4_13_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Car Sharing/.idea/libraries/Gradle__org_apache_httpcomponents_httpclient_4_5_13.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Car Sharing/.idea/libraries/Gradle__org_apache_httpcomponents_httpclient_4_5_13.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Car Sharing/.idea/libraries/Gradle__org_apache_httpcomponents_httpcore_4_4_13.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Car Sharing/.idea/libraries/Gradle__org_apache_httpcomponents_httpcore_4_4_13.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Car Sharing/.idea/libraries/Gradle__org_assertj_assertj_core_3_17_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Car Sharing/.idea/libraries/Gradle__org_assertj_assertj_core_3_17_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Car Sharing/.idea/libraries/Gradle__org_assertj_assertj_swing_3_17_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Car Sharing/.idea/libraries/Gradle__org_assertj_assertj_swing_3_17_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Car Sharing/.idea/libraries/Gradle__org_assertj_assertj_swing_junit_3_17_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Car Sharing/.idea/libraries/Gradle__org_assertj_assertj_swing_junit_3_17_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Car Sharing/.idea/libraries/Gradle__org_easytesting_fest_reflect_1_4_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Car Sharing/.idea/libraries/Gradle__org_easytesting_fest_reflect_1_4_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Car Sharing/.idea/libraries/Gradle__org_easytesting_fest_util_1_2_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Car Sharing/.idea/libraries/Gradle__org_easytesting_fest_util_1_2_5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Car Sharing/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Car Sharing/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Car Sharing/Topics/Random/Possible sequences/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Car Sharing/Topics/Random/Possible sequences/task-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java Problems/.gradle/7.5.1/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../Java Problems/.gradle/7.5.1/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java Problems/.gradle/7.5.1/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Java Problems/.gradle/7.5.1/checksums/md5-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java Problems/.gradle/7.5.1/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Java Problems/.gradle/7.5.1/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java Problems/.gradle/7.5.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Java Problems/.gradle/7.5.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java Problems/.gradle/7.5.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../Java Problems/.gradle/7.5.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java Problems/.gradle/7.5.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Java Problems/.gradle/7.5.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java Problems/.gradle/7.5.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../Java Problems/.gradle/7.5.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java Problems/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../Java Problems/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java Problems/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Java Problems/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java Problems/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java Problems/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java Problems/.idea/libraries/Gradle__com_github_hyperskill_hs_test_release_SNAPSHOT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java Problems/.idea/libraries/Gradle__com_github_hyperskill_hs_test_release_SNAPSHOT.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java Problems/.idea/libraries/Gradle__com_google_code_gson_gson_2_8_9.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java Problems/.idea/libraries/Gradle__com_google_code_gson_gson_2_8_9.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java Problems/.idea/libraries/Gradle__commons_codec_commons_codec_1_11.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java Problems/.idea/libraries/Gradle__commons_codec_commons_codec_1_11.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java Problems/.idea/libraries/Gradle__commons_logging_commons_logging_1_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java Problems/.idea/libraries/Gradle__commons_logging_commons_logging_1_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java Problems/.idea/libraries/Gradle__junit_junit_4_13_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java Problems/.idea/libraries/Gradle__junit_junit_4_13_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java Problems/.idea/libraries/Gradle__org_apache_httpcomponents_httpclient_4_5_13.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java Problems/.idea/libraries/Gradle__org_apache_httpcomponents_httpclient_4_5_13.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java Problems/.idea/libraries/Gradle__org_apache_httpcomponents_httpcore_4_4_13.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java Problems/.idea/libraries/Gradle__org_apache_httpcomponents_httpcore_4_4_13.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java Problems/.idea/libraries/Gradle__org_assertj_assertj_core_3_17_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java Problems/.idea/libraries/Gradle__org_assertj_assertj_core_3_17_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java Problems/.idea/libraries/Gradle__org_assertj_assertj_swing_3_17_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java Problems/.idea/libraries/Gradle__org_assertj_assertj_swing_3_17_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java Problems/.idea/libraries/Gradle__org_assertj_assertj_swing_junit_3_17_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java Problems/.idea/libraries/Gradle__org_assertj_assertj_swing_junit_3_17_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java Problems/.idea/libraries/Gradle__org_easytesting_fest_reflect_1_4_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java Problems/.idea/libraries/Gradle__org_easytesting_fest_reflect_1_4_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java Problems/.idea/libraries/Gradle__org_easytesting_fest_util_1_2_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java Problems/.idea/libraries/Gradle__org_easytesting_fest_util_1_2_5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java Problems/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java Problems/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java Problems/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java Problems/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java Problems/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java Problems/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java Problems/Topics/section-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java Problems/Topics/section-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java Problems/course-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java Problems/course-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Sandbox/Sandbox.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sandbox/Sandbox.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2tjAJqJZ4bem3DIBJEJNd6KGsdA" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Debug",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Sandbox" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5809a87e-3663-4eb3-bb2a-36f004a55434" name="Changes" comment="" />
+      <created>1740855040349</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1740855040349</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <condition expression="i==19" language="JAVA" />
+          <url>file://$PROJECT_DIR$/src/Main.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

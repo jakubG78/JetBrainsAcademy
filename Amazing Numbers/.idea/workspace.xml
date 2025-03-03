@@ -5,12 +5,60 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="44f05a3c-d191-408b-bfd9-283b523ac5cd" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/8.0/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.0/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.0/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.0/checksums/md5-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.0/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.0/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.0/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.0/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.0/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.0/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.0/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.0/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.0/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.0/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.0/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.0/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/frameworkLessonHistory/storage.storageData" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/frameworkLessonHistory/storage.storageData" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/frameworkLessonHistory/storage.storageRecordIndex" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/frameworkLessonHistory/storage.storageRecordIndex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_hyperskill_hs_test_master_SNAPSHOT.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_hyperskill_hs_test_release_SNAPSHOT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_hyperskill_hs_test_release_SNAPSHOT.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Amazing Numbers/task/Amazing_Numbers.Amazing_Numbers-task.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Amazing Numbers/task/Amazing_Numbers.Amazing_Numbers-task.test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Amazing Numbers/task/build/classes/java/Amazing_Numbers.Amazing_Numbers-task-build-classes-java.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Amazing Numbers/task/build/classes/java/Amazing_Numbers.Amazing_Numbers-task-build-classes-java.test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Amazing Numbers/task/build/generated/sources/annotationProcessor/java/Amazing_Numbers.Amazing_Numbers-task-build-generated-sources-annotationProcessor-java.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Amazing Numbers/task/build/generated/sources/annotationProcessor/java/Amazing_Numbers.Amazing_Numbers-task-build-generated-sources-annotationProcessor-java.test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Amazing Numbers/task/build/generated/sources/headers/java/Amazing_Numbers.Amazing_Numbers-task-build-generated-sources-headers-java.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Amazing Numbers/task/build/generated/sources/headers/java/Amazing_Numbers.Amazing_Numbers-task-build-generated-sources-headers-java.test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Amazing Numbers/task/build/reports/tests/Amazing_Numbers.Amazing_Numbers-task-build-reports-tests.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Amazing Numbers/task/build/reports/tests/Amazing_Numbers.Amazing_Numbers-task-build-reports-tests.test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Amazing Numbers/task/build/test-results/Amazing_Numbers.Amazing_Numbers-task-build-test-results.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Amazing Numbers/task/build/test-results/Amazing_Numbers.Amazing_Numbers-task-build-test-results.test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Amazing Numbers/task/build/tmp/Amazing_Numbers.Amazing_Numbers-task-build-tmp.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Amazing Numbers/task/build/tmp/Amazing_Numbers.Amazing_Numbers-task-build-tmp.test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/util/Amazing_Numbers.util.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/util/Amazing_Numbers.util.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/util/Amazing_Numbers.util.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/util/Amazing_Numbers.util.test.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazing Numbers/Buzz numbers/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Amazing Numbers/Buzz numbers/task-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazing Numbers/Buzz numbers/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Amazing Numbers/Buzz numbers/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazing Numbers/Duck numbers/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Amazing Numbers/Duck numbers/task-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazing Numbers/Duck numbers/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Amazing Numbers/Duck numbers/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazing Numbers/Duck numbers/task.html" beforeDir="false" afterPath="$PROJECT_DIR$/Amazing Numbers/Duck numbers/task.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazing Numbers/Gapful numbers/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Amazing Numbers/Gapful numbers/task-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazing Numbers/Gapful numbers/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Amazing Numbers/Gapful numbers/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazing Numbers/Happy and Sad numbers/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Amazing Numbers/Happy and Sad numbers/task-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazing Numbers/Happy and Sad numbers/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Amazing Numbers/Happy and Sad numbers/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazing Numbers/Jumping numbers/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Amazing Numbers/Jumping numbers/task-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazing Numbers/Jumping numbers/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Amazing Numbers/Jumping numbers/task-remote-info.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Amazing Numbers/Palindromic numbers/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Amazing Numbers/Palindromic numbers/task-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazing Numbers/Palindromic numbers/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Amazing Numbers/Palindromic numbers/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazing Numbers/Spy numbers/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Amazing Numbers/Spy numbers/task-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazing Numbers/Spy numbers/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Amazing Numbers/Spy numbers/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazing Numbers/Spy numbers/task.html" beforeDir="false" afterPath="$PROJECT_DIR$/Amazing Numbers/Spy numbers/task.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazing Numbers/Sunny and Square numbers/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Amazing Numbers/Sunny and Square numbers/task-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazing Numbers/Sunny and Square numbers/task-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Amazing Numbers/Sunny and Square numbers/task-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazing Numbers/Sunny and Square numbers/task.html" beforeDir="false" afterPath="$PROJECT_DIR$/Amazing Numbers/Sunny and Square numbers/task.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazing Numbers/lesson-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Amazing Numbers/lesson-info.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Amazing Numbers/task/build/classes/java/main/numbers/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazing Numbers/task/build/classes/java/main/numbers/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazing Numbers/task/build/classes/java/test/NumberProperty.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazing Numbers/task/build/classes/java/test/NumberProperty.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazing Numbers/task/build/classes/java/test/NumbersTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazing Numbers/task/build/classes/java/test/NumbersTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Amazing Numbers/task/build/reports/tests/test/classes/NumbersTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/Amazing Numbers/task/build/reports/tests/test/classes/NumbersTest.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Amazing Numbers/task/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Amazing Numbers/task/build/reports/tests/test/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Amazing Numbers/task/build/reports/tests/test/packages/default-package.html" beforeDir="false" afterPath="$PROJECT_DIR$/Amazing Numbers/task/build/reports/tests/test/packages/default-package.html" afterDir="false" />
@@ -18,8 +66,75 @@
       <change beforePath="$PROJECT_DIR$/Amazing Numbers/task/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Amazing Numbers/task/build/test-results/test/binary/output.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Amazing Numbers/task/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/Amazing Numbers/task/build/test-results/test/binary/output.bin.idx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Amazing Numbers/task/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Amazing Numbers/task/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazing Numbers/task/build/tmp/compileJava/compileTransaction/stash-dir/Main.class.uniqueId0" beforeDir="false" afterPath="$PROJECT_DIR$/Amazing Numbers/task/build/tmp/compileJava/compileTransaction/stash-dir/Main.class.uniqueId0" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Amazing Numbers/task/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Amazing Numbers/task/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazing Numbers/task/build/tmp/compileTestJava/compileTransaction/stash-dir/NumberProperty.class.uniqueId0" beforeDir="false" afterPath="$PROJECT_DIR$/Amazing Numbers/task/build/tmp/compileTestJava/compileTransaction/stash-dir/NumberProperty.class.uniqueId0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazing Numbers/task/build/tmp/compileTestJava/compileTransaction/stash-dir/NumbersTest.class.uniqueId2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazing Numbers/task/build/tmp/compileTestJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Amazing Numbers/task/build/tmp/compileTestJava/previous-compilation-data.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Amazing Numbers/task/src/numbers/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Amazing Numbers/task/src/numbers/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazing Numbers/task/test/NumberProperty.java" beforeDir="false" afterPath="$PROJECT_DIR$/Amazing Numbers/task/test/NumberProperty.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazing Numbers/task/test/NumbersTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Amazing Numbers/task/test/NumbersTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/course-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/course-remote-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Car Sharing/.gradle/7.3.3/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../Car Sharing/.gradle/7.3.3/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Car Sharing/.gradle/7.3.3/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Car Sharing/.gradle/7.3.3/checksums/md5-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Car Sharing/.gradle/7.3.3/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Car Sharing/.gradle/7.3.3/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Car Sharing/.gradle/7.3.3/dependencies-accessors/dependencies-accessors.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../Car Sharing/.gradle/7.3.3/dependencies-accessors/dependencies-accessors.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Car Sharing/.gradle/7.3.3/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../Car Sharing/.gradle/7.3.3/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Car Sharing/.gradle/7.3.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../Car Sharing/.gradle/7.3.3/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Car Sharing/.gradle/7.5.1/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../Car Sharing/.gradle/7.5.1/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Car Sharing/.gradle/7.5.1/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Car Sharing/.gradle/7.5.1/checksums/md5-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Car Sharing/.gradle/7.5.1/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Car Sharing/.gradle/7.5.1/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Car Sharing/.gradle/7.5.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Car Sharing/.gradle/7.5.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Car Sharing/.gradle/7.5.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../Car Sharing/.gradle/7.5.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Car Sharing/.gradle/7.5.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Car Sharing/.gradle/7.5.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Car Sharing/.gradle/7.5.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../Car Sharing/.gradle/7.5.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Car Sharing/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../Car Sharing/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Car Sharing/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../Car Sharing/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Car Sharing/.idea/libraries/Gradle__com_github_hyperskill_hs_test_release_SNAPSHOT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Car Sharing/.idea/libraries/Gradle__com_github_hyperskill_hs_test_release_SNAPSHOT.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Car Sharing/.idea/libraries/Gradle__com_google_code_gson_gson_2_8_9.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Car Sharing/.idea/libraries/Gradle__com_google_code_gson_gson_2_8_9.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Car Sharing/.idea/libraries/Gradle__com_h2database_h2_1_4_200.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Car Sharing/.idea/libraries/Gradle__com_h2database_h2_1_4_200.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Car Sharing/.idea/libraries/Gradle__commons_codec_commons_codec_1_11.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Car Sharing/.idea/libraries/Gradle__commons_codec_commons_codec_1_11.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Car Sharing/.idea/libraries/Gradle__commons_logging_commons_logging_1_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Car Sharing/.idea/libraries/Gradle__commons_logging_commons_logging_1_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Car Sharing/.idea/libraries/Gradle__junit_junit_4_13_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Car Sharing/.idea/libraries/Gradle__junit_junit_4_13_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Car Sharing/.idea/libraries/Gradle__org_apache_httpcomponents_httpclient_4_5_13.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Car Sharing/.idea/libraries/Gradle__org_apache_httpcomponents_httpclient_4_5_13.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Car Sharing/.idea/libraries/Gradle__org_apache_httpcomponents_httpcore_4_4_13.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Car Sharing/.idea/libraries/Gradle__org_apache_httpcomponents_httpcore_4_4_13.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Car Sharing/.idea/libraries/Gradle__org_assertj_assertj_core_3_17_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Car Sharing/.idea/libraries/Gradle__org_assertj_assertj_core_3_17_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Car Sharing/.idea/libraries/Gradle__org_assertj_assertj_swing_3_17_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Car Sharing/.idea/libraries/Gradle__org_assertj_assertj_swing_3_17_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Car Sharing/.idea/libraries/Gradle__org_assertj_assertj_swing_junit_3_17_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Car Sharing/.idea/libraries/Gradle__org_assertj_assertj_swing_junit_3_17_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Car Sharing/.idea/libraries/Gradle__org_easytesting_fest_reflect_1_4_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Car Sharing/.idea/libraries/Gradle__org_easytesting_fest_reflect_1_4_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Car Sharing/.idea/libraries/Gradle__org_easytesting_fest_util_1_2_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Car Sharing/.idea/libraries/Gradle__org_easytesting_fest_util_1_2_5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Car Sharing/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Car Sharing/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Car Sharing/Topics/Random/Possible sequences/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Car Sharing/Topics/Random/Possible sequences/task-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java Problems/.gradle/7.5.1/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../Java Problems/.gradle/7.5.1/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java Problems/.gradle/7.5.1/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Java Problems/.gradle/7.5.1/checksums/md5-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java Problems/.gradle/7.5.1/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Java Problems/.gradle/7.5.1/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java Problems/.gradle/7.5.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Java Problems/.gradle/7.5.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java Problems/.gradle/7.5.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../Java Problems/.gradle/7.5.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java Problems/.gradle/7.5.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Java Problems/.gradle/7.5.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java Problems/.gradle/7.5.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../Java Problems/.gradle/7.5.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java Problems/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../Java Problems/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java Problems/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Java Problems/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java Problems/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java Problems/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java Problems/.idea/libraries/Gradle__com_github_hyperskill_hs_test_release_SNAPSHOT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java Problems/.idea/libraries/Gradle__com_github_hyperskill_hs_test_release_SNAPSHOT.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java Problems/.idea/libraries/Gradle__com_google_code_gson_gson_2_8_9.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java Problems/.idea/libraries/Gradle__com_google_code_gson_gson_2_8_9.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java Problems/.idea/libraries/Gradle__commons_codec_commons_codec_1_11.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java Problems/.idea/libraries/Gradle__commons_codec_commons_codec_1_11.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java Problems/.idea/libraries/Gradle__commons_logging_commons_logging_1_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java Problems/.idea/libraries/Gradle__commons_logging_commons_logging_1_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java Problems/.idea/libraries/Gradle__junit_junit_4_13_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java Problems/.idea/libraries/Gradle__junit_junit_4_13_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java Problems/.idea/libraries/Gradle__org_apache_httpcomponents_httpclient_4_5_13.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java Problems/.idea/libraries/Gradle__org_apache_httpcomponents_httpclient_4_5_13.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java Problems/.idea/libraries/Gradle__org_apache_httpcomponents_httpcore_4_4_13.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java Problems/.idea/libraries/Gradle__org_apache_httpcomponents_httpcore_4_4_13.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java Problems/.idea/libraries/Gradle__org_assertj_assertj_core_3_17_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java Problems/.idea/libraries/Gradle__org_assertj_assertj_core_3_17_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java Problems/.idea/libraries/Gradle__org_assertj_assertj_swing_3_17_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java Problems/.idea/libraries/Gradle__org_assertj_assertj_swing_3_17_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java Problems/.idea/libraries/Gradle__org_assertj_assertj_swing_junit_3_17_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java Problems/.idea/libraries/Gradle__org_assertj_assertj_swing_junit_3_17_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java Problems/.idea/libraries/Gradle__org_easytesting_fest_reflect_1_4_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java Problems/.idea/libraries/Gradle__org_easytesting_fest_reflect_1_4_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java Problems/.idea/libraries/Gradle__org_easytesting_fest_util_1_2_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java Problems/.idea/libraries/Gradle__org_easytesting_fest_util_1_2_5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java Problems/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java Problems/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java Problems/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java Problems/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java Problems/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java Problems/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java Problems/Topics/section-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java Problems/Topics/section-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java Problems/course-remote-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java Problems/course-remote-info.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,9 +146,198 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Amazing Numbers" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Amazing Numbers/task/src/numbers/Main.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Amazing Numbers/task/test/ListChecker.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Amazing Numbers/task/test/NumberProperty.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Amazing Numbers/task/test/NumbersTest.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Amazing Numbers/task/test/PropertiesChecker.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Amazing Numbers/task/test/Request.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Amazing Numbers/task/test/util/Checker.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Amazing Numbers/task/test/util/LinesChecker.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Amazing Numbers/task/test/util/RegexChecker.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Amazing Numbers/task/test/util/TextChecker.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Amazing Numbers/task/test/util/UserProgram.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/Branching statements/Bus tour/src/Main.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/Branching statements/Even or odd/src/Main.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/Branching statements/Printing numbers/answer.txt" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/Branching statements/Repeating 'f' character/answer.txt" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/Branching statements/The integer barrier/src/Main.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/Branching statements/The same results/src/Task.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/Branching statements/The sequence/src/Main.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/Branching statements/Theory/src/Task.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/Branching statements/What does the code print/src/Task.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/Branching statements/What is the output/src/Task.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/Comparator/Comparator vs Comparable/src/Task.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/Comparator/Comparing numbers/src/Task.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/Comparator/Comparing values/src/Task.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/Comparator/Method name/src/Task.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/Comparator/Most valuable items/src/Main.java" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/Comparator/Multiple fields/src/Main.java" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/Comparator/Non-abstract methods/src/Task.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/Comparator/Odd and even/src/Main.java" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/Comparator/Reverse sorting/src/Main.java" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/Comparator/Sort users/src/Main.java" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/Comparator/Theory/src/Task.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/Constructor/Account and its owner/src/Main.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/Constructor/Account/src/Main.java" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/Constructor/Book/src/Main.java" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/Constructor/Complex numbers/src/Main.java" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/Constructor/Constructor definition/src/Task.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/Constructor/Cookie/src/Task.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/Constructor/Creating news/src/Task.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/Constructor/Default constructor/src/Task.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/Constructor/Geometric cube/src/Main.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/Constructor/Theory/src/Task.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/Constructor/User/src/Main.java" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/Declaring a method/Calculating factorials/src/Main.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/Declaring a method/Division/src/Main.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/Declaring a method/Find the max of three numbers/src/Main.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/Declaring a method/Greatest common divisor/src/Task.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/Declaring a method/Raise to the power/src/Main.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/Declaring a method/The elements of a method/src/Task.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/Declaring a method/The sign of a number/src/Main.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/Declaring a method/Theory/src/Task.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/Declaring a method/Vowel or not/src/Main.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/Floating-point types/Area of a circle/src/Main.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/Floating-point types/Determine the integer part/src/Task.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/Floating-point types/Determine the result/src/Task.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/Floating-point types/Difference between two doubles/src/Main.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/Floating-point types/Distance/src/Main.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/Floating-point types/Explain the result/src/Task.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/Floating-point types/Exponential expression/src/Main.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/Floating-point types/Find X/src/Main.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/Floating-point types/Statements/src/Task.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/Floating-point types/Theory/src/Task.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/Functional data processing with streams/Common stream operations/src/Task.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/Functional data processing with streams/Create a stream from a list/src/Task.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/Functional data processing with streams/Finding max and min elements/src/Main.java" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/Functional data processing with streams/Long ranges/src/Task.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/Functional data processing with streams/Print elements of a stream/src/Main.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/Functional data processing with streams/Statements about streams/src/Task.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/Functional data processing with streams/Terminal operations with streams/src/Task.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/Functional data processing with streams/Theory/src/Task.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/Integer types and operations/Arithmetic expression/src/Main.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/Integer types and operations/Calculate the digit/src/Task.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/Integer types and operations/Desks/src/Main.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/Integer types and operations/Enter a value/answer.txt" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/Integer types and operations/First digit/src/Main.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/Integer types and operations/Good rest on vacation/src/Main.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/Integer types and operations/Match operations and their meanings/src/Task.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/Integer types and operations/Reversing input numbers/src/Main.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/Integer types and operations/Reversing/src/Main.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/Integer types and operations/Squirrels and nuts/src/Main.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/Integer types and operations/Tens digit/src/Main.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/Integer types and operations/The sum of digits/src/Main.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/Integer types and operations/Theory/src/Task.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/Iterating over arrays/Check if an array contains two numbers/src/Main.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/Iterating over arrays/Check if an array is sorted ascending/src/Main.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/Iterating over arrays/Count how many times a number occurs/src/Main.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/Iterating over arrays/Cyclically shifting elements/src/Main.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/Iterating over arrays/Does an array contain N/src/Main.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/Iterating over arrays/Select loops/src/Task.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/Iterating over arrays/Sum array elements greater than a value/src/Main.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/Iterating over arrays/The index of the first max in an array/src/Main.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/Iterating over arrays/The maximum product of adjacent elements/src/Main.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/Iterating over arrays/The sum of array elements/src/Main.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/Iterating over arrays/Theory/src/Task.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/Iterating over arrays/Triples/src/Main.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/Iterating over arrays/Two numbers never occur next to each other/src/Main.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/Processing strings/Compression algorithm/src/Main.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/Processing strings/Determine the value (1)/src/Task.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/Processing strings/Determine the value/src/Task.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/Processing strings/Double characters/src/Main.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/Processing strings/Find the first occurrence of the word  the/src/Main.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/Processing strings/Number of occurrences/src/Main.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/Processing strings/Palindrome/src/Main.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/Processing strings/Parse url/src/Main.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/Processing strings/Piece of alphabet/src/Main.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/Processing strings/The longest word/src/Main.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/Processing strings/The percentage of G and C characters/src/Main.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/Processing strings/Theory/src/Task.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/Relational operators/Check the given numbers are different/src/Main.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/Relational operators/Check the sum/src/Main.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/Relational operators/Check the value/src/Main.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/Relational operators/Exactly one parameter is positive/src/Main.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/Relational operators/Existing operators/src/Task.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/Relational operators/Groundhogs at a party/src/Main.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/Relational operators/Is between/src/Main.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/Relational operators/Job offer/src/Task.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/Relational operators/Possible values of a variable/src/Task.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/Relational operators/Theory/src/Task.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/Standard functional interfaces/Accounts/src/Main.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/Standard functional interfaces/Describe the function/src/Task.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/Standard functional interfaces/Find a functional interface/answer.txt" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/Standard functional interfaces/Interface matching/src/Task.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/Standard functional interfaces/Matching lambda expressions/src/Task.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/Standard functional interfaces/Proper interfaces/src/Task.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/Standard functional interfaces/Select correct statements/src/Task.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/Standard functional interfaces/Select suitable interfaces/src/Task.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/Standard functional interfaces/Ternary operator/src/Main.java" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/Standard functional interfaces/Theory/src/Task.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/String/ Hello  string/src/Task.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/String/Calling basic methods/src/Task.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/String/Check burgs/src/Main.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/String/Check prefix ignoring the case/src/Main.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/String/Comparing strings ignoring whitespaces/src/Main.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/String/Determine the value of a variable/answer.txt" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/String/Extracting a substring/src/Main.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/String/Find true expressions/src/Task.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/String/Finding string expressions/src/Task.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/String/Operations with strings/src/Task.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/String/Replacing 'a' with 'b'/src/Main.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/String/Statements/src/Task.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/String/Theory/src/Task.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/Switch statement/A simple calculator/src/Main.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/Switch statement/Direction/src/Main.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/Switch statement/Floor-space of the room/src/Main.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/Switch statement/From string to a number/src/Main.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/Switch statement/Shape/src/Main.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/Switch statement/Statements (1)/src/Task.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/Switch statement/Statements/src/Task.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/Switch statement/Test learners/src/Main.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/Switch statement/Theory/src/Task.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/The Set interface/A subset of sorted set/src/Task.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/The Set interface/Comparing sets/src/Task.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/The Set interface/Creating a set/src/Main.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/The Set interface/Match methods and their purposes/src/Task.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/The Set interface/Output elements/src/Main.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/The Set interface/Removing elements/src/Main.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/The Set interface/Spell checker/src/Main.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/The Set interface/Symmetric difference/src/Main.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/The Set interface/The storage order/src/Task.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/The Set interface/Theory/src/Task.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/The Set interface/Tree set elements order/src/Task.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2QWSQN994Sy3e8lLeqYBXeq3UqQ" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -46,13 +350,17 @@
   &quot;keyToString&quot;: {
     &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;Edu.Yaml.Migrate&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/IdeaProjects/JavaProjects/JetBrainsAcademy/Amazing Numbers&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -213,7 +521,11 @@
     <taskDatabasesInitialized>
       <option value="jdbc:h2:file:E:/IdeaProjects/JavaProjects/JetBrainsAcademy/Amazing Numbers/Amazing Numbers/Buzz numbers/db" />
       <option value="jdbc:h2:file:E:/IdeaProjects/JavaProjects/JetBrainsAcademy/Amazing Numbers/Amazing Numbers/Duck numbers/db" />
+      <option value="jdbc:h2:file:E:/IdeaProjects/JavaProjects/JetBrainsAcademy/Amazing Numbers/Amazing Numbers/Gapful numbers/db" />
+      <option value="jdbc:h2:file:E:/IdeaProjects/JavaProjects/JetBrainsAcademy/Amazing Numbers/Amazing Numbers/Gapful numbers/db/db" />
       <option value="jdbc:h2:file:E:/IdeaProjects/JavaProjects/JetBrainsAcademy/Amazing Numbers/Amazing Numbers/Palindromic numbers/db" />
+      <option value="jdbc:h2:file:E:/IdeaProjects/JavaProjects/JetBrainsAcademy/Amazing Numbers/Amazing Numbers/Spy numbers/db" />
+      <option value="jdbc:h2:file:E:/IdeaProjects/JavaProjects/JetBrainsAcademy/Amazing Numbers/Amazing Numbers/Spy numbers/db/db" />
     </taskDatabasesInitialized>
   </component>
   <component name="TaskManager">
@@ -224,11 +536,77 @@
       <option name="presentableId" value="Default" />
       <updated>1685467826871</updated>
       <workItem from="1685467827942" duration="1517000" />
-      <workItem from="1685554562969" duration="1158000" />
+      <workItem from="1685554562969" duration="1625000" />
+      <workItem from="1685824957828" duration="74000" />
+      <workItem from="1685825038426" duration="149000" />
+      <workItem from="1686155290202" duration="719000" />
+      <workItem from="1686323757431" duration="106000" />
+      <workItem from="1686323888128" duration="2000" />
+      <workItem from="1686323905328" duration="3000" />
+      <workItem from="1686324029035" duration="59000" />
+      <workItem from="1686324093413" duration="11000" />
+      <workItem from="1686324168891" duration="11000" />
+      <workItem from="1686324196535" duration="5000" />
+      <workItem from="1686324257037" duration="111000" />
+      <workItem from="1686324368715" duration="31000" />
+      <workItem from="1686324406693" duration="48000" />
+      <workItem from="1686594565397" duration="275000" />
+      <workItem from="1686595680204" duration="43000" />
+      <workItem from="1686595784071" duration="66000" />
+      <workItem from="1686595860964" duration="292000" />
+      <workItem from="1686596213104" duration="778000" />
+      <workItem from="1686764537929" duration="985000" />
+      <workItem from="1687107761337" duration="387000" />
+      <workItem from="1687165689287" duration="1815000" />
+      <workItem from="1687457835182" duration="236000" />
+      <workItem from="1688222906495" duration="684000" />
+      <workItem from="1688720894466" duration="1558000" />
+      <workItem from="1688725839752" duration="49000" />
+      <workItem from="1689664401738" duration="1322000" />
+      <workItem from="1690731360805" duration="360000" />
+      <workItem from="1690731727353" duration="43000" />
+      <workItem from="1690731812581" duration="892000" />
+      <workItem from="1690868042957" duration="823000" />
+      <workItem from="1691132839181" duration="1195000" />
+      <workItem from="1693283644018" duration="455000" />
+      <workItem from="1693751661677" duration="98000" />
+      <workItem from="1694684843427" duration="474000" />
+      <workItem from="1695105950781" duration="1712000" />
+      <workItem from="1697310516456" duration="599000" />
+      <workItem from="1697311148237" duration="107000" />
+      <workItem from="1697311370211" duration="93000" />
+      <workItem from="1697404074673" duration="126000" />
+      <workItem from="1697404208600" duration="716000" />
+      <workItem from="1697654613268" duration="187000" />
+      <workItem from="1697790146874" duration="181000" />
+      <workItem from="1698064486557" duration="706000" />
+      <workItem from="1698065200046" duration="886000" />
+      <workItem from="1698223146414" duration="135000" />
+      <workItem from="1698223286245" duration="5000" />
+      <workItem from="1698225243568" duration="2044000" />
+      <workItem from="1699046140292" duration="161000" />
+      <workItem from="1708603381202" duration="12000" />
+      <workItem from="1740761615934" duration="65000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Topics/String/Comparing strings ignoring whitespaces/src/Main.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Topics/Declaring a method/Raise to the power/src/Main.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

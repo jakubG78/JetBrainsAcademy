@@ -1,0 +1,9 @@
+content:
+- Theory
+- Statements about streams
+- Terminal operations with streams
+- Create a stream from a list
+- Common stream operations
+- Long ranges
+- Finding max and min elements
+- Print elements of a stream

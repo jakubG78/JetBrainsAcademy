@@ -1,4 +1,5 @@
 content:
-- Branching statements
-- Iterating over arrays
-- Floating-point types
+  - Branching statements
+  - Iterating over arrays
+  - Floating-point types
+  - Processing strings

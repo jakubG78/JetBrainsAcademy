@@ -1,0 +1,14 @@
+type: edu
+files:
+  - name: src/calculator/Main.java
+    visible: true
+    learner_created: false
+  - name: test/MyFirstProjectTest.java
+    visible: false
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/35120#comment
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Sat, 01 Mar 2025 18:24:03 UTC"
+record: 2
