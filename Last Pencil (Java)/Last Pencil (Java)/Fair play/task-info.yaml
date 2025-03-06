@@ -6,6 +6,73 @@ files:
   - name: test/LastPencilTest.java
     visible: false
     learner_created: false
-feedback_link: https://hyperskill.org/projects/341/stages/2008/implement#comment
-status: Unchecked
-record: -1
+  - name: src/utils/Utils.java
+    visible: true
+    learner_created: true
+feedback_link: https://hyperskill.org/learn/step/28001#comment
+status: Failed
+feedback:
+  message: |-
+    Wrong answer in test #16
+
+    When one of the players enters the number of pencils they want to remove, the program should print 2 non-empty lines.
+
+    Please find below the output of your program during this failed test.
+    Note that the &#39;&gt;&#39; character indicates the beginning of the input line.
+
+    ---
+
+    How many pencils would you like to use:
+    &gt; 5
+    Who will be the first (John, Jack):
+    &gt; JohnJack
+    Choose between &#39;John&#39; and &#39;Jack&#39;
+    &gt; JohnJack
+    Choose between &#39;John&#39; and &#39;Jack&#39;
+    &gt; JohnJack
+    Choose between &#39;John&#39; and &#39;Jack&#39;
+    &gt; JohnJack
+    Choose between &#39;John&#39; and &#39;Jack&#39;
+    &gt; JohnJack
+    Choose between &#39;John&#39; and &#39;Jack&#39;
+    &gt; John
+    |||||
+    John&#39;s turn
+    &gt; 4
+    Possible values: &#39;1&#39;, &#39;2&#39; or &#39;3&#39;
+    &gt; a
+    Possible values: &#39;1&#39;, &#39;2&#39; or &#39;3&#39;
+    &gt; 0
+    Possible values: &#39;1&#39;, &#39;2&#39; or &#39;3&#39;
+    &gt; -1
+    Possible values: &#39;1&#39;, &#39;2&#39; or &#39;3&#39;
+    &gt; _
+    Possible values: &#39;1&#39;, &#39;2&#39; or &#39;3&#39;
+    &gt; |
+    Possible values: &#39;1&#39;, &#39;2&#39; or &#39;3&#39;
+    &gt; |||||
+    Possible values: &#39;1&#39;, &#39;2&#39; or &#39;3&#39;
+    &gt; 2
+    |||
+    Jack&#39;s turn:
+    2
+    |
+    John&#39;s turn
+    &gt; 4
+    Possible values: &#39;1&#39;, &#39;2&#39; or &#39;3&#39;
+    &gt; a
+    Possible values: &#39;1&#39;, &#39;2&#39; or &#39;3&#39;
+    &gt; 0
+    Possible values: &#39;1&#39;, &#39;2&#39; or &#39;3&#39;
+    &gt; -1
+    Possible values: &#39;1&#39;, &#39;2&#39; or &#39;3&#39;
+    &gt; _
+    Possible values: &#39;1&#39;, &#39;2&#39; or &#39;3&#39;
+    &gt; |
+    Possible values: &#39;1&#39;, &#39;2&#39; or &#39;3&#39;
+    &gt; |||||
+    Possible values: &#39;1&#39;, &#39;2&#39; or &#39;3&#39;
+    &gt; 1
+    Jack won!
+  time: "Thu, 06 Mar 2025 18:29:47 UTC"
+record: 4
